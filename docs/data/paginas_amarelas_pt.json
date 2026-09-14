@@ -1,0 +1,1575 @@
+{
+  "version": "2026.2",
+  "source": "Páginas Amarelas, Diretório Oficial da Administração Pública (DGAEP), PSP, GNR, SNS e Câmaras Municipais",
+  "description": "Base de Dados Consolidada de Entidades Públicas, Forças de Segurança, Hospitais, Autarquias e Empresas de Portugal",
+  "entries": [
+    {
+      "number": "808242424",
+      "name": "SNS 24 - Linha do Serviço Nacional de Saúde",
+      "category": "Saúde Pública / Triagem Oficial",
+      "address": "Lisboa / Porto",
+      "website": "https://www.sns24.gov.pt",
+      "is_official": true
+    },
+    {
+      "number": "210471616",
+      "name": "CTT - Correios de Portugal (Linha de Apoio Oficial)",
+      "category": "Serviço Postal / Logística",
+      "address": "Avenida D. João II 13, Lisboa",
+      "website": "https://www.ctt.pt",
+      "is_official": true
+    },
+    {
+      "number": "210545400",
+      "name": "Segurança Social - Linha Geral de Atendimento",
+      "category": "Serviço Público / Segurança Social",
+      "address": "Lisboa",
+      "website": "https://www.seg-social.pt",
+      "is_official": true
+    },
+    {
+      "number": "300511499",
+      "name": "Segurança Social - Linha Nómada Oficial",
+      "category": "Serviço Público / Segurança Social",
+      "address": "Lisboa",
+      "website": "https://www.seg-social.pt",
+      "is_official": true
+    },
+    {
+      "number": "217206707",
+      "name": "Autoridade Tributária e Aduaneira (Finanças)",
+      "category": "Serviço Público / Finanças",
+      "address": "Lisboa",
+      "website": "https://www.portaldasfinancas.gov.pt",
+      "is_official": true
+    },
+    {
+      "number": "211530530",
+      "name": "EDP Comercial - Linha Oficial de Atendimento",
+      "category": "Energia / Eletricidade e Gás",
+      "address": "Avenida 24 de Julho 12, Lisboa",
+      "website": "https://www.edp.pt",
+      "is_official": true
+    },
+    {
+      "number": "808535353",
+      "name": "E-Redes / EDP Distribuição - Apoio Técnico",
+      "category": "Energia / Distribuição",
+      "address": "Lisboa",
+      "website": "https://www.e-redes.pt",
+      "is_official": true
+    },
+    {
+      "number": "808507500",
+      "name": "Galp Energia - Linha Oficial de Clientes",
+      "category": "Energia / Gás e Eletricidade",
+      "address": "Rua Tomás da Fonseca, Lisboa",
+      "website": "https://casa.galp.pt",
+      "is_official": true
+    },
+    {
+      "number": "116006",
+      "name": "APAV - Linha de Apoio à Vítima",
+      "category": "Linha Social Harmonizada",
+      "address": "Lisboa",
+      "website": "https://apav.pt",
+      "is_official": true
+    },
+    {
+      "number": "116111",
+      "name": "SOS Criança (IAC)",
+      "category": "Linha Social Harmonizada",
+      "address": "Lisboa",
+      "website": "https://iacrianca.pt",
+      "is_official": true
+    },
+    {
+      "number": "217657500",
+      "name": "Direção Nacional da Polícia de Segurança Pública (PSP)",
+      "category": "Polícia / Força de Segurança",
+      "address": "Largo de Penha de França 1, 1199-010 Lisboa",
+      "website": "https://www.psp.pt",
+      "is_official": true
+    },
+    {
+      "number": "217654242",
+      "name": "Comando Metropolitano da PSP de Lisboa (Cometlis)",
+      "category": "Polícia / Força de Segurança",
+      "address": "Moscavide, Lisboa",
+      "website": "https://www.psp.pt",
+      "is_official": true
+    },
+    {
+      "number": "218544000",
+      "name": "Polícia de Segurança Pública - Aeroporto de Lisboa",
+      "category": "Polícia / Força de Segurança",
+      "address": "Aeroporto Humberto Delgado, Lisboa",
+      "website": "https://www.psp.pt",
+      "is_official": true
+    },
+    {
+      "number": "213421212",
+      "name": "PSP Lisboa - 1ª Divisão Policial (Baixa / Rossio)",
+      "category": "Polícia / Força de Segurança",
+      "address": "Rua Capelo, Lisboa",
+      "website": "https://www.psp.pt",
+      "is_official": true
+    },
+    {
+      "number": "213466123",
+      "name": "PSP Lisboa - Esquadra de Turismo (Palácio Foz)",
+      "category": "Polícia / Força de Segurança",
+      "address": "Praça dos Restauradores, Lisboa",
+      "website": "https://www.psp.pt",
+      "is_official": true
+    },
+    {
+      "number": "213223400",
+      "name": "PSP Lisboa - Esquadra da Baixa / Chiado",
+      "category": "Polícia / Força de Segurança",
+      "address": "Rua do Ouro, Lisboa",
+      "website": "https://www.psp.pt",
+      "is_official": true
+    },
+    {
+      "number": "217714600",
+      "name": "PSP Lisboa - 2ª Divisão Policial (Benfica)",
+      "category": "Polícia / Força de Segurança",
+      "address": "Benfica, Lisboa",
+      "website": "https://www.psp.pt",
+      "is_official": true
+    },
+    {
+      "number": "218410800",
+      "name": "PSP Lisboa - 3ª Divisão Policial (Alvalade)",
+      "category": "Polícia / Força de Segurança",
+      "address": "Alvalade, Lisboa",
+      "website": "https://www.psp.pt",
+      "is_official": true
+    },
+    {
+      "number": "218541300",
+      "name": "PSP Lisboa - 4ª Divisão Policial (Olivais)",
+      "category": "Polícia / Força de Segurança",
+      "address": "Olivais, Lisboa",
+      "website": "https://www.psp.pt",
+      "is_official": true
+    },
+    {
+      "number": "219237000",
+      "name": "PSP - Divisão Policial de Sintra",
+      "category": "Polícia / Força de Segurança",
+      "address": "Portela de Sintra",
+      "website": "https://www.psp.pt",
+      "is_official": true
+    },
+    {
+      "number": "214826000",
+      "name": "PSP - Divisão Policial de Cascais",
+      "category": "Polícia / Força de Segurança",
+      "address": "Cascais",
+      "website": "https://www.psp.pt",
+      "is_official": true
+    },
+    {
+      "number": "219829400",
+      "name": "PSP - Divisão Policial de Loures",
+      "category": "Polícia / Força de Segurança",
+      "address": "Loures",
+      "website": "https://www.psp.pt",
+      "is_official": true
+    },
+    {
+      "number": "214987500",
+      "name": "PSP - Divisão Policial da Amadora",
+      "category": "Polícia / Força de Segurança",
+      "address": "Amadora",
+      "website": "https://www.psp.pt",
+      "is_official": true
+    },
+    {
+      "number": "214468000",
+      "name": "PSP - Divisão Policial de Oeiras",
+      "category": "Polícia / Força de Segurança",
+      "address": "Oeiras",
+      "website": "https://www.psp.pt",
+      "is_official": true
+    },
+    {
+      "number": "222092000",
+      "name": "Comando Metropolitano da PSP do Porto",
+      "category": "Polícia / Força de Segurança",
+      "address": "Rua de Gonçalo Cristóvão 177, Porto",
+      "website": "https://www.psp.pt",
+      "is_official": true
+    },
+    {
+      "number": "222092100",
+      "name": "PSP Porto - 1ª Divisão Policial (Centro)",
+      "category": "Polícia / Força de Segurança",
+      "address": "Porto",
+      "website": "https://www.psp.pt",
+      "is_official": true
+    },
+    {
+      "number": "226198100",
+      "name": "PSP Porto - 2ª Divisão Policial (Foz)",
+      "category": "Polícia / Força de Segurança",
+      "address": "Foz do Douro, Porto",
+      "website": "https://www.psp.pt",
+      "is_official": true
+    },
+    {
+      "number": "225194600",
+      "name": "PSP Porto - 3ª Divisão Policial (Bonfim)",
+      "category": "Polícia / Força de Segurança",
+      "address": "Bonfim, Porto",
+      "website": "https://www.psp.pt",
+      "is_official": true
+    },
+    {
+      "number": "225083600",
+      "name": "PSP Porto - 4ª Divisão Policial (Ramalde)",
+      "category": "Polícia / Força de Segurança",
+      "address": "Ramalde, Porto",
+      "website": "https://www.psp.pt",
+      "is_official": true
+    },
+    {
+      "number": "223746300",
+      "name": "PSP - Divisão Policial de Vila Nova de Gaia",
+      "category": "Polícia / Força de Segurança",
+      "address": "Vila Nova de Gaia",
+      "website": "https://www.psp.pt",
+      "is_official": true
+    },
+    {
+      "number": "229397500",
+      "name": "PSP - Divisão Policial de Matosinhos",
+      "category": "Polícia / Força de Segurança",
+      "address": "Matosinhos",
+      "website": "https://www.psp.pt",
+      "is_official": true
+    },
+    {
+      "number": "229438000",
+      "name": "PSP - Divisão Policial da Maia",
+      "category": "Polícia / Força de Segurança",
+      "address": "Maia",
+      "website": "https://www.psp.pt",
+      "is_official": true
+    },
+    {
+      "number": "239854250",
+      "name": "Comando Distrital da PSP de Coimbra",
+      "category": "Polícia / Força de Segurança",
+      "address": "Rua Olímpio Nicolau Rui Fernandes, Coimbra",
+      "website": "https://www.psp.pt",
+      "is_official": true
+    },
+    {
+      "number": "253200420",
+      "name": "Comando Distrital da PSP de Braga",
+      "category": "Polícia / Força de Segurança",
+      "address": "Rua dos Chãos, Braga",
+      "website": "https://www.psp.pt",
+      "is_official": true
+    },
+    {
+      "number": "234378100",
+      "name": "Comando Distrital da PSP de Aveiro",
+      "category": "Polícia / Força de Segurança",
+      "address": "Aveiro",
+      "website": "https://www.psp.pt",
+      "is_official": true
+    },
+    {
+      "number": "289899899",
+      "name": "Comando Distrital da PSP de Faro",
+      "category": "Polícia / Força de Segurança",
+      "address": "Faro",
+      "website": "https://www.psp.pt",
+      "is_official": true
+    },
+    {
+      "number": "265540100",
+      "name": "Comando Distrital da PSP de Setúbal",
+      "category": "Polícia / Força de Segurança",
+      "address": "Setúbal",
+      "website": "https://www.psp.pt",
+      "is_official": true
+    },
+    {
+      "number": "244859859",
+      "name": "Comando Distrital da PSP de Leiria",
+      "category": "Polícia / Força de Segurança",
+      "address": "Leiria",
+      "website": "https://www.psp.pt",
+      "is_official": true
+    },
+    {
+      "number": "243300000",
+      "name": "Comando Distrital da PSP de Santarém",
+      "category": "Polícia / Força de Segurança",
+      "address": "Santarém",
+      "website": "https://www.psp.pt",
+      "is_official": true
+    },
+    {
+      "number": "232419600",
+      "name": "Comando Distrital da PSP de Viseu",
+      "category": "Polícia / Força de Segurança",
+      "address": "Viseu",
+      "website": "https://www.psp.pt",
+      "is_official": true
+    },
+    {
+      "number": "258809809",
+      "name": "Comando Distrital da PSP de Viana do Castelo",
+      "category": "Polícia / Força de Segurança",
+      "address": "Viana do Castelo",
+      "website": "https://www.psp.pt",
+      "is_official": true
+    },
+    {
+      "number": "259308100",
+      "name": "Comando Distrital da PSP de Vila Real",
+      "category": "Polícia / Força de Segurança",
+      "address": "Vila Real",
+      "website": "https://www.psp.pt",
+      "is_official": true
+    },
+    {
+      "number": "273300500",
+      "name": "Comando Distrital da PSP de Bragança",
+      "category": "Polícia / Força de Segurança",
+      "address": "Bragança",
+      "website": "https://www.psp.pt",
+      "is_official": true
+    },
+    {
+      "number": "271205300",
+      "name": "Comando Distrital da PSP da Guarda",
+      "category": "Polícia / Força de Segurança",
+      "address": "Guarda",
+      "website": "https://www.psp.pt",
+      "is_official": true
+    },
+    {
+      "number": "272340700",
+      "name": "Comando Distrital da PSP de Castelo Branco",
+      "category": "Polícia / Força de Segurança",
+      "address": "Castelo Branco",
+      "website": "https://www.psp.pt",
+      "is_official": true
+    },
+    {
+      "number": "245300400",
+      "name": "Comando Distrital da PSP de Portalegre",
+      "category": "Polícia / Força de Segurança",
+      "address": "Portalegre",
+      "website": "https://www.psp.pt",
+      "is_official": true
+    },
+    {
+      "number": "266760400",
+      "name": "Comando Distrital da PSP de Évora",
+      "category": "Polícia / Força de Segurança",
+      "address": "Évora",
+      "website": "https://www.psp.pt",
+      "is_official": true
+    },
+    {
+      "number": "284315200",
+      "name": "Comando Distrital da PSP de Beja",
+      "category": "Polícia / Força de Segurança",
+      "address": "Beja",
+      "website": "https://www.psp.pt",
+      "is_official": true
+    },
+    {
+      "number": "291208400",
+      "name": "Comando Regional da PSP da Madeira",
+      "category": "Polícia / Força de Segurança",
+      "address": "Funchal, Madeira",
+      "website": "https://www.psp.pt",
+      "is_official": true
+    },
+    {
+      "number": "296205500",
+      "name": "Comando Regional da PSP dos Açores",
+      "category": "Polícia / Força de Segurança",
+      "address": "Ponta Delgada, Açores",
+      "website": "https://www.psp.pt",
+      "is_official": true
+    },
+    {
+      "number": "213217000",
+      "name": "Guarda Nacional Republicana (GNR) - Comando Geral",
+      "category": "Força de Segurança / Militar",
+      "address": "Largo do Carmo, Lisboa",
+      "website": "https://www.gnr.pt",
+      "is_official": true
+    },
+    {
+      "number": "213217100",
+      "name": "GNR - Gabinete de Informações e Relações Públicas",
+      "category": "Força de Segurança / Militar",
+      "address": "Largo do Carmo, Lisboa",
+      "website": "https://www.gnr.pt",
+      "is_official": true
+    },
+    {
+      "number": "213928200",
+      "name": "Comando Territorial da GNR de Lisboa",
+      "category": "Força de Segurança / Militar",
+      "address": "Lisboa",
+      "website": "https://www.gnr.pt",
+      "is_official": true
+    },
+    {
+      "number": "226088100",
+      "name": "Comando Territorial da GNR do Porto",
+      "category": "Força de Segurança / Militar",
+      "address": "Porto",
+      "website": "https://www.gnr.pt",
+      "is_official": true
+    },
+    {
+      "number": "239794800",
+      "name": "Comando Territorial da GNR de Coimbra",
+      "category": "Força de Segurança / Militar",
+      "address": "Coimbra",
+      "website": "https://www.gnr.pt",
+      "is_official": true
+    },
+    {
+      "number": "265540600",
+      "name": "Comando Territorial da GNR de Setúbal",
+      "category": "Força de Segurança / Militar",
+      "address": "Setúbal",
+      "website": "https://www.gnr.pt",
+      "is_official": true
+    },
+    {
+      "number": "289887600",
+      "name": "Comando Territorial da GNR de Faro",
+      "category": "Força de Segurança / Militar",
+      "address": "Faro",
+      "website": "https://www.gnr.pt",
+      "is_official": true
+    },
+    {
+      "number": "253203000",
+      "name": "Comando Territorial da GNR de Braga",
+      "category": "Força de Segurança / Militar",
+      "address": "Braga",
+      "website": "https://www.gnr.pt",
+      "is_official": true
+    },
+    {
+      "number": "234400600",
+      "name": "Comando Territorial da GNR de Aveiro",
+      "category": "Força de Segurança / Militar",
+      "address": "Aveiro",
+      "website": "https://www.gnr.pt",
+      "is_official": true
+    },
+    {
+      "number": "244845100",
+      "name": "Comando Territorial da GNR de Leiria",
+      "category": "Força de Segurança / Militar",
+      "address": "Leiria",
+      "website": "https://www.gnr.pt",
+      "is_official": true
+    },
+    {
+      "number": "243300700",
+      "name": "Comando Territorial da GNR de Santarém",
+      "category": "Força de Segurança / Militar",
+      "address": "Santarém",
+      "website": "https://www.gnr.pt",
+      "is_official": true
+    },
+    {
+      "number": "232467900",
+      "name": "Comando Territorial da GNR de Viseu",
+      "category": "Força de Segurança / Militar",
+      "address": "Viseu",
+      "website": "https://www.gnr.pt",
+      "is_official": true
+    },
+    {
+      "number": "266748100",
+      "name": "Comando Territorial da GNR de Évora",
+      "category": "Força de Segurança / Militar",
+      "address": "Évora",
+      "website": "https://www.gnr.pt",
+      "is_official": true
+    },
+    {
+      "number": "284310300",
+      "name": "Comando Territorial da GNR de Beja",
+      "category": "Força de Segurança / Militar",
+      "address": "Beja",
+      "website": "https://www.gnr.pt",
+      "is_official": true
+    },
+    {
+      "number": "211967000",
+      "name": "Polícia Judiciária (PJ) - Direção Nacional / Sede",
+      "category": "Polícia / Investigação Criminal",
+      "address": "Rua Gomes Freire 174, Lisboa",
+      "website": "https://www.policiajudiciaria.pt",
+      "is_official": true
+    },
+    {
+      "number": "211967100",
+      "name": "Polícia Judiciária - Diretoria de Lisboa e Vale do Tejo",
+      "category": "Polícia / Investigação Criminal",
+      "address": "Lisboa",
+      "website": "https://www.policiajudiciaria.pt",
+      "is_official": true
+    },
+    {
+      "number": "225582000",
+      "name": "Polícia Judiciária - Diretoria do Norte (Porto)",
+      "category": "Polícia / Investigação Criminal",
+      "address": "Rua de Assis Vaz 141, Porto",
+      "website": "https://www.policiajudiciaria.pt",
+      "is_official": true
+    },
+    {
+      "number": "239863000",
+      "name": "Polícia Judiciária - Diretoria do Centro (Coimbra)",
+      "category": "Polícia / Investigação Criminal",
+      "address": "Coimbra",
+      "website": "https://www.policiajudiciaria.pt",
+      "is_official": true
+    },
+    {
+      "number": "289899900",
+      "name": "Polícia Judiciária - Diretoria do Sul (Faro)",
+      "category": "Polícia / Investigação Criminal",
+      "address": "Faro",
+      "website": "https://www.policiajudiciaria.pt",
+      "is_official": true
+    },
+    {
+      "number": "218171700",
+      "name": "Regimento de Sapadores Bombeiros de Lisboa",
+      "category": "Bombeiros / Proteção Civil",
+      "address": "Avenida D. Carlos I, Lisboa",
+      "website": "https://www.cm-lisboa.pt",
+      "is_official": true
+    },
+    {
+      "number": "225073700",
+      "name": "Batalhão de Sapadores Bombeiros do Porto",
+      "category": "Bombeiros / Proteção Civil",
+      "address": "Porto",
+      "website": "https://www.cm-porto.pt",
+      "is_official": true
+    },
+    {
+      "number": "214247100",
+      "name": "ANEPC - Autoridade Nacional de Emergência e Proteção Civil",
+      "category": "Emergência / Proteção Civil",
+      "address": "Carnaxide, Oeiras",
+      "website": "https://www.prociv.pt",
+      "is_official": true
+    },
+    {
+      "number": "213508100",
+      "name": "INEM - Instituto Nacional de Emergência Médica (Sede)",
+      "category": "Saúde / Emergência Médica",
+      "address": "Rua Almirante Barroso 36, Lisboa",
+      "website": "https://www.inem.pt",
+      "is_official": true
+    },
+    {
+      "number": "217805000",
+      "name": "Hospital de Santa Maria (ULSSM Lisboa)",
+      "category": "Hospital Público",
+      "address": "Avenida Professor Egas Moniz, 1649-035 Lisboa",
+      "website": "https://www.chln.min-saude.pt",
+      "is_official": true
+    },
+    {
+      "number": "217805100",
+      "name": "Hospital Pulido Valente (ULSSM Lisboa)",
+      "category": "Hospital Público",
+      "address": "Alameda das Linhas de Torres 117, Lisboa",
+      "website": "https://www.chln.min-saude.pt",
+      "is_official": true
+    },
+    {
+      "number": "225512100",
+      "name": "Hospital de São João (Porto)",
+      "category": "Hospital Público",
+      "address": "Alameda Prof. Hernâni Monteiro, 4200-319 Porto",
+      "website": "https://portal-chsj.min-saude.pt",
+      "is_official": true
+    },
+    {
+      "number": "222077500",
+      "name": "Hospital de Santo António (Porto)",
+      "category": "Hospital Público",
+      "address": "Largo Prof. Abel Salazar, 4099-001 Porto",
+      "website": "https://www.chporto.pt",
+      "is_official": true
+    },
+    {
+      "number": "239400400",
+      "name": "Hospitais da Universidade de Coimbra (CHUC)",
+      "category": "Hospital Público",
+      "address": "Praceta Prof. Mota Pinto, 3000-075 Coimbra",
+      "website": "https://www.chuc.min-saude.pt",
+      "is_official": true
+    },
+    {
+      "number": "212940294",
+      "name": "Hospital Garcia de Orta (Almada)",
+      "category": "Hospital Público",
+      "address": "Avenida Torrado da Silva, Pragal, Almada",
+      "website": "https://www.hgo.min-saude.pt",
+      "is_official": true
+    },
+    {
+      "number": "214348200",
+      "name": "Hospital Prof. Doutor Fernando Fonseca (Amadora-Sintra)",
+      "category": "Hospital Público",
+      "address": "IC19, Venteira, Amadora",
+      "website": "https://www.hff.min-saude.pt",
+      "is_official": true
+    },
+    {
+      "number": "210431000",
+      "name": "Hospital de São Francisco Xavier (CHLO Lisboa)",
+      "category": "Hospital Público",
+      "address": "Estrada do Forte do Alto do Duque, Lisboa",
+      "website": "https://www.chlo.min-saude.pt",
+      "is_official": true
+    },
+    {
+      "number": "289891100",
+      "name": "Hospital de Faro (CHUA Algarve)",
+      "category": "Hospital Público",
+      "address": "Faro, Algarve",
+      "website": "https://www.chua.min-saude.pt",
+      "is_official": true
+    },
+    {
+      "number": "253027000",
+      "name": "Hospital de Braga",
+      "category": "Hospital Público",
+      "address": "Sete Fontes, São Victor, Braga",
+      "website": "https://www.hospitaldebraga.pt",
+      "is_official": true
+    },
+    {
+      "number": "213184000",
+      "name": "Maternidade Alfredo da Costa (CHULC)",
+      "category": "Hospital Público / Maternidade",
+      "address": "Rua Viriato, Lisboa",
+      "website": "https://www.chlc.min-saude.pt",
+      "is_official": true
+    },
+    {
+      "number": "217229800",
+      "name": "Instituto Português de Oncologia de Lisboa (IPO Lisboa)",
+      "category": "Hospital Especializado / Oncologia",
+      "address": "Rua Prof. Lima Basto, Lisboa",
+      "website": "https://www.ipolisboa.min-saude.pt",
+      "is_official": true
+    },
+    {
+      "number": "225084000",
+      "name": "Instituto Português de Oncologia do Porto (IPO Porto)",
+      "category": "Hospital Especializado / Oncologia",
+      "address": "Rua Dr. António Bernardino de Almeida, Porto",
+      "website": "https://www.ipoporto.pt",
+      "is_official": true
+    },
+    {
+      "number": "218170000",
+      "name": "Câmara Municipal de Lisboa",
+      "category": "Autarquia / Município",
+      "address": "Praça do Município, Lisboa",
+      "website": "https://www.cm-lisboa.pt",
+      "is_official": true
+    },
+    {
+      "number": "808203232",
+      "name": "Linha Lisboa - Câmara Municipal de Lisboa",
+      "category": "Autarquia / Linha de Apoio ao Cidadão",
+      "address": "Lisboa",
+      "website": "https://www.cm-lisboa.pt",
+      "is_official": true
+    },
+    {
+      "number": "222090400",
+      "name": "Câmara Municipal do Porto",
+      "category": "Autarquia / Município",
+      "address": "Praça General Humberto Delgado, Porto",
+      "website": "https://www.cm-porto.pt",
+      "is_official": true
+    },
+    {
+      "number": "219238500",
+      "name": "Câmara Municipal de Sintra",
+      "category": "Autarquia / Município",
+      "address": "Largo Dr. Vergílio Horta, Sintra",
+      "website": "https://cm-sintra.pt",
+      "is_official": true
+    },
+    {
+      "number": "223742400",
+      "name": "Câmara Municipal de Vila Nova de Gaia",
+      "category": "Autarquia / Município",
+      "address": "Rua Álvares Cabral, Vila Nova de Gaia",
+      "website": "https://www.cm-gaia.pt",
+      "is_official": true
+    },
+    {
+      "number": "214815000",
+      "name": "Câmara Municipal de Cascais",
+      "category": "Autarquia / Município",
+      "address": "Praça 5 de Outubro 9, Cascais",
+      "website": "https://www.cascais.pt",
+      "is_official": true
+    },
+    {
+      "number": "211150100",
+      "name": "Câmara Municipal de Loures",
+      "category": "Autarquia / Município",
+      "address": "Praça da Liberdade, Loures",
+      "website": "https://www.cm-loures.pt",
+      "is_official": true
+    },
+    {
+      "number": "253616060",
+      "name": "Câmara Municipal de Braga",
+      "category": "Autarquia / Município",
+      "address": "Praça do Município, Braga",
+      "website": "https://www.cm-braga.pt",
+      "is_official": true
+    },
+    {
+      "number": "229390900",
+      "name": "Câmara Municipal de Matosinhos",
+      "category": "Autarquia / Município",
+      "address": "Avenida Silvano Brandão, Matosinhos",
+      "website": "https://www.cm-matosinhos.pt",
+      "is_official": true
+    },
+    {
+      "number": "214369000",
+      "name": "Câmara Municipal da Amadora",
+      "category": "Autarquia / Município",
+      "address": "Avenida Movimento das Forças Armadas 1, Amadora",
+      "website": "https://www.cm-amadora.pt",
+      "is_official": true
+    },
+    {
+      "number": "212724000",
+      "name": "Câmara Municipal de Almada",
+      "category": "Autarquia / Município",
+      "address": "Largo Luís de Camões, Almada",
+      "website": "https://www.cm-almada.pt",
+      "is_official": true
+    },
+    {
+      "number": "214408300",
+      "name": "Câmara Municipal de Oeiras",
+      "category": "Autarquia / Município",
+      "address": "Largo Marquês de Pombal, Oeiras",
+      "website": "https://www.oeiras.pt",
+      "is_official": true
+    },
+    {
+      "number": "224660500",
+      "name": "Câmara Municipal de Gondomar",
+      "category": "Autarquia / Município",
+      "address": "Praça Manuel Guedes, Gondomar",
+      "website": "https://www.cm-gondomar.pt",
+      "is_official": true
+    },
+    {
+      "number": "253421200",
+      "name": "Câmara Municipal de Guimarães",
+      "category": "Autarquia / Município",
+      "address": "Largo Cónego José Maria Gomes, Guimarães",
+      "website": "https://www.cm-guimaraes.pt",
+      "is_official": true
+    },
+    {
+      "number": "219320100",
+      "name": "Câmara Municipal de Odivelas",
+      "category": "Autarquia / Município",
+      "address": "Rua Guilherme Gomes Fernandes, Odivelas",
+      "website": "https://www.cm-odivelas.pt",
+      "is_official": true
+    },
+    {
+      "number": "239857500",
+      "name": "Câmara Municipal de Coimbra",
+      "category": "Autarquia / Município",
+      "address": "Praça 8 de Maio, Coimbra",
+      "website": "https://www.cm-coimbra.pt",
+      "is_official": true
+    },
+    {
+      "number": "265541500",
+      "name": "Câmara Municipal de Setúbal",
+      "category": "Autarquia / Município",
+      "address": "Praça do Bocage, Setúbal",
+      "website": "https://www.mun-setubal.pt",
+      "is_official": true
+    },
+    {
+      "number": "244839500",
+      "name": "Câmara Municipal de Leiria",
+      "category": "Autarquia / Município",
+      "address": "Largo da República, Leiria",
+      "website": "https://www.cm-leiria.pt",
+      "is_official": true
+    },
+    {
+      "number": "289870870",
+      "name": "Câmara Municipal de Faro",
+      "category": "Autarquia / Município",
+      "address": "Largo da Sé, Faro",
+      "website": "https://www.cm-faro.pt",
+      "is_official": true
+    },
+    {
+      "number": "234406300",
+      "name": "Câmara Municipal de Aveiro",
+      "category": "Autarquia / Município",
+      "address": "Cais da Fonte Nova, Aveiro",
+      "website": "https://www.cm-aveiro.pt",
+      "is_official": true
+    },
+    {
+      "number": "232427427",
+      "name": "Câmara Municipal de Viseu",
+      "category": "Autarquia / Município",
+      "address": "Praça da República, Viseu",
+      "website": "https://www.cm-viseu.pt",
+      "is_official": true
+    },
+    {
+      "number": "291211000",
+      "name": "Câmara Municipal do Funchal",
+      "category": "Autarquia / Município",
+      "address": "Praça do Município, Funchal",
+      "website": "https://www.funchal.pt",
+      "is_official": true
+    },
+    {
+      "number": "296202700",
+      "name": "Câmara Municipal de Ponta Delgada",
+      "category": "Autarquia / Município",
+      "address": "Praça do Município, Ponta Delgada",
+      "website": "https://www.cm-pontadelgada.pt",
+      "is_official": true
+    },
+    {
+      "number": "213919000",
+      "name": "Assembleia da República de Portugal (Parlamento)",
+      "category": "Órgão de Soberania",
+      "address": "Palácio de São Bento, 1249-068 Lisboa",
+      "website": "https://www.parlamento.pt",
+      "is_official": true
+    },
+    {
+      "number": "213614600",
+      "name": "Presidência da República Portuguesa",
+      "category": "Órgão de Soberania",
+      "address": "Palácio de Belém, Calçada da Ajuda, Lisboa",
+      "website": "https://www.presidencia.pt",
+      "is_official": true
+    },
+    {
+      "number": "213927600",
+      "name": "Presidência do Conselho de Ministros (Governo de Portugal)",
+      "category": "Governo de Portugal",
+      "address": "Rua da Imprensa Nacional 188, Lisboa",
+      "website": "https://www.portugal.gov.pt",
+      "is_official": true
+    },
+    {
+      "number": "213218900",
+      "name": "Supremo Tribunal de Justiça",
+      "category": "Justiça / Tribunais",
+      "address": "Praça do Comércio, Lisboa",
+      "website": "https://www.stj.pt",
+      "is_official": true
+    },
+    {
+      "number": "213233600",
+      "name": "Tribunal Constitucional",
+      "category": "Justiça / Tribunais",
+      "address": "Rua de O Século 111, Lisboa",
+      "website": "https://www.tribunalconstitucional.pt",
+      "is_official": true
+    },
+    {
+      "number": "213921600",
+      "name": "Procuradoria-Geral da República (PGR)",
+      "category": "Justiça / Ministério Público",
+      "address": "Rua da Escola Politécnica 140, Lisboa",
+      "website": "https://www.ministeriopublico.pt",
+      "is_official": true
+    },
+    {
+      "number": "218430500",
+      "name": "Direção-Geral da Saúde (DGS)",
+      "category": "Saúde Pública / Ministério da Saúde",
+      "address": "Alameda D. Afonso Henriques 45, Lisboa",
+      "website": "https://www.dgs.pt",
+      "is_official": true
+    },
+    {
+      "number": "217983600",
+      "name": "ASAE - Autoridade de Segurança Alimentar e Económica",
+      "category": "Fiscalização / Serviço Público",
+      "address": "Rua Rodrigo da Fonseca 73, Lisboa",
+      "website": "https://www.asae.gov.pt",
+      "is_official": true
+    },
+    {
+      "number": "300069300",
+      "name": "ACT - Autoridade para as Condições do Trabalho",
+      "category": "Trabalho / Serviço Público",
+      "address": "Avenida Casal Ribeiro 18, Lisboa",
+      "website": "https://www.act.gov.pt",
+      "is_official": true
+    },
+    {
+      "number": "213130000",
+      "name": "Banco de Portugal (Sede Lisboa)",
+      "category": "Banco Central / Regulação Financeira",
+      "address": "Rua do Comércio 148, Lisboa",
+      "website": "https://www.bportugal.pt",
+      "is_official": true
+    },
+    {
+      "number": "222071000",
+      "name": "Banco de Portugal (Delegação do Porto)",
+      "category": "Banco Central / Regulação Financeira",
+      "address": "Praça da Liberdade 92, Porto",
+      "website": "https://www.bportugal.pt",
+      "is_official": true
+    },
+    {
+      "number": "217905000",
+      "name": "Caixa Geral de Depósitos (CGD) - Sede",
+      "category": "Banca / Instituição Financeira",
+      "address": "Avenida João XXI 63, Lisboa",
+      "website": "https://www.cgd.pt",
+      "is_official": true
+    },
+    {
+      "number": "217953000",
+      "name": "Caixa Direta / Caixa Geral de Depósitos",
+      "category": "Banca / Apoio ao Cliente",
+      "address": "Lisboa",
+      "website": "https://www.cgd.pt",
+      "is_official": true
+    },
+    {
+      "number": "211131000",
+      "name": "Millennium BCP - Linha de Atendimento",
+      "category": "Banca / Apoio ao Cliente",
+      "address": "Lisboa / Porto",
+      "website": "https://www.millenniumbcp.pt",
+      "is_official": true
+    },
+    {
+      "number": "217807364",
+      "name": "Santander Totta - Atendimento a Clientes",
+      "category": "Banca / Apoio ao Cliente",
+      "address": "Rua do Ouro 88, Lisboa",
+      "website": "https://www.santander.pt",
+      "is_official": true
+    },
+    {
+      "number": "218834700",
+      "name": "Novo Banco - Atendimento Geral",
+      "category": "Banca / Instituição Financeira",
+      "address": "Avenida da Liberdade 195, Lisboa",
+      "website": "https://www.novobanco.pt",
+      "is_official": true
+    },
+    {
+      "number": "217207000",
+      "name": "Banco BPI - Atendimento BPI Directo",
+      "category": "Banca / Apoio ao Cliente",
+      "address": "Rua Casal de Santa Cruz, Amadora",
+      "website": "https://www.bancobpi.pt",
+      "is_official": true
+    },
+    {
+      "number": "217241624",
+      "name": "Banco Montepio - Linha de Apoio",
+      "category": "Banca / Apoio ao Cliente",
+      "address": "Rua Áurea 219, Lisboa",
+      "website": "https://www.bancomontepio.pt",
+      "is_official": true
+    },
+    {
+      "number": "212697100",
+      "name": "Banco CTT - Atendimento a Clientes",
+      "category": "Banca / Apoio ao Cliente",
+      "address": "Avenida D. João II 13, Lisboa",
+      "website": "https://www.bancoctt.pt",
+      "is_official": true
+    },
+    {
+      "number": "213809900",
+      "name": "Crédito Agrícola - Linha Directa",
+      "category": "Banca / Apoio ao Cliente",
+      "address": "Rua Castilho 233, Lisboa",
+      "website": "https://www.creditoagricola.pt",
+      "is_official": true
+    },
+    {
+      "number": "210030700",
+      "name": "ActivoBank - Linha de Apoio",
+      "category": "Banca / Apoio ao Cliente",
+      "address": "Rua Augusta 84, Lisboa",
+      "website": "https://www.activobank.pt",
+      "is_official": true
+    },
+    {
+      "number": "213613000",
+      "name": "Carris - Companhia Carris de Ferro de Lisboa",
+      "category": "Transportes Públicos",
+      "address": "Rua 1º de Maio 101, Lisboa",
+      "website": "https://www.carris.pt",
+      "is_official": true
+    },
+    {
+      "number": "217980600",
+      "name": "Metropolitano de Lisboa",
+      "category": "Transportes Públicos",
+      "address": "Avenida Fontes Pereira de Melo 28, Lisboa",
+      "website": "https://www.metrolisboa.pt",
+      "is_official": true
+    },
+    {
+      "number": "225081000",
+      "name": "Metro do Porto",
+      "category": "Transportes Públicos",
+      "address": "Avenida Fernão de Magalhães 1862, Porto",
+      "website": "https://www.metrodoporto.pt",
+      "is_official": true
+    },
+    {
+      "number": "214564545",
+      "name": "CP - Comboios de Portugal (Linha de Atendimento)",
+      "category": "Transportes Ferroviários",
+      "address": "Calçada de Santa Apolónia, Lisboa",
+      "website": "https://www.cp.pt",
+      "is_official": true
+    },
+    {
+      "number": "808109110",
+      "name": "Linha CP - Informação e Bilheteira",
+      "category": "Transportes Ferroviários",
+      "address": "Lisboa",
+      "website": "https://www.cp.pt",
+      "is_official": true
+    },
+    {
+      "number": "212979380",
+      "name": "Fertagus - Comboios da Ponte",
+      "category": "Transportes Ferroviários",
+      "address": "Estação do Pragal, Almada",
+      "website": "https://www.fertagus.pt",
+      "is_official": true
+    },
+    {
+      "number": "211026000",
+      "name": "Infraestruturas de Portugal (IP)",
+      "category": "Infraestruturas / Ferrovias e Rodovias",
+      "address": "Praça da Portagem, Almada",
+      "website": "https://www.infraestruturasdeportugal.pt",
+      "is_official": true
+    },
+    {
+      "number": "218431100",
+      "name": "TAP Air Portugal - Sede e Atendimento Geral",
+      "category": "Companhia Aérea Nacional",
+      "address": "Aeroporto de Lisboa, Edifício 25",
+      "website": "https://www.flytap.com",
+      "is_official": true
+    },
+    {
+      "number": "218415000",
+      "name": "TAP Contact Center",
+      "category": "Companhia Aérea / Reservas",
+      "address": "Lisboa",
+      "website": "https://www.flytap.com",
+      "is_official": true
+    },
+    {
+      "number": "210730300",
+      "name": "Via Verde Portugal - Linha de Apoio ao Cliente",
+      "category": "Portagens / Mobilidade",
+      "address": "Quinta da Fonte, Oeiras",
+      "website": "https://www.viaverde.pt",
+      "is_official": true
+    },
+    {
+      "number": "210489010",
+      "name": "GovPT - Saltar para o conteúdo Contactos e ajuda Tem dúvidas sobre a informação e os ser",
+      "category": "Serviço Público Governamental",
+      "website": "https://eportugal.gov.pt/contactos",
+      "address": "Portugal",
+      "verified": true
+    },
+    {
+      "number": "210489011",
+      "name": "GovPT - Saltar para o conteúdo Contactos e ajuda Tem dúvidas sobre a informação e os ser",
+      "category": "Serviço Público Governamental",
+      "website": "https://eportugal.gov.pt/contactos",
+      "address": "Portugal",
+      "verified": true
+    },
+    {
+      "number": "239854400",
+      "name": "Comando Distrital da PSP de Coimbra (Geral)",
+      "category": "Polícia / Força de Segurança",
+      "website": "https://www.psp.pt",
+      "address": "Coimbra",
+      "is_official": true
+    },
+    {
+      "number": "265534030",
+      "name": "Comando Distrital da PSP de Setúbal (Geral)",
+      "category": "Polícia / Força de Segurança",
+      "website": "https://www.psp.pt",
+      "address": "Setúbal",
+      "is_official": true
+    },
+    {
+      "number": "289899990",
+      "name": "Comando Distrital da PSP de Faro (Geral)",
+      "category": "Polícia / Força de Segurança",
+      "website": "https://www.psp.pt",
+      "address": "Faro",
+      "is_official": true
+    },
+    {
+      "number": "234371400",
+      "name": "Comando Distrital da PSP de Aveiro (Geral)",
+      "category": "Polícia / Força de Segurança",
+      "website": "https://www.psp.pt",
+      "address": "Aveiro",
+      "is_official": true
+    },
+    {
+      "number": "244859850",
+      "name": "Comando Distrital da PSP de Leiria (Geral)",
+      "category": "Polícia / Força de Segurança",
+      "website": "https://www.psp.pt",
+      "address": "Leiria",
+      "is_official": true
+    },
+    {
+      "number": "243309200",
+      "name": "Comando Distrital da PSP de Santarém (Geral)",
+      "category": "Polícia / Força de Segurança",
+      "website": "https://www.psp.pt",
+      "address": "Santarém",
+      "is_official": true
+    },
+    {
+      "number": "232483000",
+      "name": "Comando Distrital da PSP de Viseu (Geral)",
+      "category": "Polícia / Força de Segurança",
+      "website": "https://www.psp.pt",
+      "address": "Viseu",
+      "is_official": true
+    },
+    {
+      "number": "258809610",
+      "name": "Comando Distrital da PSP de Viana do Castelo (Geral)",
+      "category": "Polícia / Força de Segurança",
+      "website": "https://www.psp.pt",
+      "address": "Viana do Castelo",
+      "is_official": true
+    },
+    {
+      "number": "259301600",
+      "name": "Comando Distrital da PSP de Vila Real (Geral)",
+      "category": "Polícia / Força de Segurança",
+      "website": "https://www.psp.pt",
+      "address": "Vila Real",
+      "is_official": true
+    },
+    {
+      "number": "271200630",
+      "name": "Comando Distrital da PSP da Guarda (Geral)",
+      "category": "Polícia / Força de Segurança",
+      "website": "https://www.psp.pt",
+      "address": "Guarda",
+      "is_official": true
+    },
+    {
+      "number": "272330750",
+      "name": "Comando Distrital da PSP de Castelo Branco (Geral)",
+      "category": "Polícia / Força de Segurança",
+      "website": "https://www.psp.pt",
+      "address": "Castelo Branco",
+      "is_official": true
+    },
+    {
+      "number": "245300300",
+      "name": "Comando Distrital da PSP de Portalegre (Geral)",
+      "category": "Polícia / Força de Segurança",
+      "website": "https://www.psp.pt",
+      "address": "Portalegre",
+      "is_official": true
+    },
+    {
+      "number": "284313500",
+      "name": "Comando Distrital da PSP de Beja (Geral)",
+      "category": "Polícia / Força de Segurança",
+      "website": "https://www.psp.pt",
+      "address": "Beja",
+      "is_official": true
+    },
+    {
+      "number": "296205400",
+      "name": "Comando Regional da PSP dos Açores (Geral)",
+      "category": "Polícia / Força de Segurança",
+      "website": "https://www.psp.pt",
+      "address": "Ponta Delgada",
+      "is_official": true
+    },
+    {
+      "number": "222076000",
+      "name": "Comando Territorial da GNR do Porto (Geral)",
+      "category": "Polícia / Força de Segurança",
+      "website": "https://www.gnr.pt",
+      "address": "Porto",
+      "is_official": true
+    },
+    {
+      "number": "253600400",
+      "name": "Comando Territorial da GNR de Braga (Geral)",
+      "category": "Polícia / Força de Segurança",
+      "website": "https://www.gnr.pt",
+      "address": "Braga",
+      "is_official": true
+    },
+    {
+      "number": "239794100",
+      "name": "Comando Territorial da GNR de Coimbra (Geral)",
+      "category": "Polícia / Força de Segurança",
+      "website": "https://www.gnr.pt",
+      "address": "Coimbra",
+      "is_official": true
+    },
+    {
+      "number": "212727100",
+      "name": "Hospital Garcia de Orta (Geral / Consultas)",
+      "category": "Serviço Nacional de Saúde (Hospital)",
+      "website": "https://www.hgo.min-saude.pt",
+      "address": "Almada",
+      "is_official": true
+    },
+    {
+      "number": "265549000",
+      "name": "Hospital de São Bernardo (Setúbal Geral)",
+      "category": "Serviço Nacional de Saúde (Hospital)",
+      "website": "https://www.chs.min-saude.pt",
+      "address": "Setúbal",
+      "is_official": true
+    },
+    {
+      "number": "218111000",
+      "name": "PSP - Recentes Distritos A carregar Unidade Morada Cód. Postal Localidade Telefone Fax Email DIR",
+      "category": "Polícia / Força de Segurança",
+      "website": "https://www.psp.pt/Pages/onde-estamos.aspx",
+      "address": "Portugal",
+      "source": "official_scrape",
+      "confidence": "HIGH",
+      "is_official": true
+    },
+    {
+      "number": "219020019",
+      "name": "PSP - Recentes Distritos A carregar Unidade Morada Cód. Postal Localidade Telefone Fax Email DIR",
+      "category": "Polícia / Força de Segurança",
+      "website": "https://www.psp.pt/Pages/onde-estamos.aspx",
+      "address": "Portugal",
+      "source": "official_scrape",
+      "confidence": "HIGH",
+      "is_official": true
+    },
+    {
+      "number": "219020600",
+      "name": "PSP - Recentes Distritos A carregar Unidade Morada Cód. Postal Localidade Telefone Fax Email DIR",
+      "category": "Polícia / Força de Segurança",
+      "website": "https://www.psp.pt/Pages/onde-estamos.aspx",
+      "address": "Portugal",
+      "source": "official_scrape",
+      "confidence": "HIGH",
+      "is_official": true
+    },
+    {
+      "number": "213613998",
+      "name": "PSP - Recentes Distritos A carregar Unidade Morada Cód. Postal Localidade Telefone Fax Email DIR",
+      "category": "Polícia / Força de Segurança",
+      "website": "https://www.psp.pt/Pages/onde-estamos.aspx",
+      "address": "Portugal",
+      "source": "official_scrape",
+      "confidence": "HIGH",
+      "is_official": true
+    },
+    {
+      "number": "249413250",
+      "name": "PSP - Recentes Distritos A carregar Unidade Morada Cód. Postal Localidade Telefone Fax Email DIR",
+      "category": "Polícia / Força de Segurança",
+      "website": "https://www.psp.pt/Pages/onde-estamos.aspx",
+      "address": "Portugal",
+      "source": "official_scrape",
+      "confidence": "HIGH",
+      "is_official": true
+    },
+    {
+      "number": "249413319",
+      "name": "PSP - Recentes Distritos A carregar Unidade Morada Cód. Postal Localidade Telefone Fax Email DIR",
+      "category": "Polícia / Força de Segurança",
+      "website": "https://www.psp.pt/Pages/onde-estamos.aspx",
+      "address": "Portugal",
+      "source": "official_scrape",
+      "confidence": "HIGH",
+      "is_official": true
+    },
+    {
+      "number": "219020700",
+      "name": "PSP - Recentes Distritos A carregar Unidade Morada Cód. Postal Localidade Telefone Fax Email DIR",
+      "category": "Polícia / Força de Segurança",
+      "website": "https://www.psp.pt/Pages/onde-estamos.aspx",
+      "address": "Portugal",
+      "source": "official_scrape",
+      "confidence": "HIGH",
+      "is_official": true
+    },
+    {
+      "number": "219020749",
+      "name": "PSP - Recentes Distritos A carregar Unidade Morada Cód. Postal Localidade Telefone Fax Email DIR",
+      "category": "Polícia / Força de Segurança",
+      "website": "https://www.psp.pt/Pages/onde-estamos.aspx",
+      "address": "Portugal",
+      "source": "official_scrape",
+      "confidence": "HIGH",
+      "is_official": true
+    },
+    {
+      "number": "219020750",
+      "name": "PSP - Recentes Distritos A carregar Unidade Morada Cód. Postal Localidade Telefone Fax Email DIR",
+      "category": "Polícia / Força de Segurança",
+      "website": "https://www.psp.pt/Pages/onde-estamos.aspx",
+      "address": "Portugal",
+      "source": "official_scrape",
+      "confidence": "HIGH",
+      "is_official": true
+    },
+    {
+      "number": "234078400",
+      "name": "PSP - Recentes Distritos A carregar Unidade Morada Cód. Postal Localidade Telefone Fax Email DIR",
+      "category": "Polícia / Força de Segurança",
+      "website": "https://www.psp.pt/Pages/onde-estamos.aspx",
+      "address": "Portugal",
+      "source": "official_scrape",
+      "confidence": "HIGH",
+      "is_official": true
+    },
+    {
+      "number": "234078401",
+      "name": "PSP - Recentes Distritos A carregar Unidade Morada Cód. Postal Localidade Telefone Fax Email DIR",
+      "category": "Polícia / Força de Segurança",
+      "website": "https://www.psp.pt/Pages/onde-estamos.aspx",
+      "address": "Portugal",
+      "source": "official_scrape",
+      "confidence": "HIGH",
+      "is_official": true
+    },
+    {
+      "number": "234078459",
+      "name": "PSP - Recentes Distritos A carregar Unidade Morada Cód. Postal Localidade Telefone Fax Email DIR",
+      "category": "Polícia / Força de Segurança",
+      "website": "https://www.psp.pt/Pages/onde-estamos.aspx",
+      "address": "Portugal",
+      "source": "official_scrape",
+      "confidence": "HIGH",
+      "is_official": true
+    },
+    {
+      "number": "222461940",
+      "name": "PSP - Recentes Distritos A carregar Unidade Morada Cód. Postal Localidade Telefone Fax Email DIR",
+      "category": "Polícia / Força de Segurança",
+      "website": "https://www.psp.pt/Pages/onde-estamos.aspx",
+      "address": "Portugal",
+      "source": "official_scrape",
+      "confidence": "HIGH",
+      "is_official": true
+    },
+    {
+      "number": "256114220",
+      "name": "PSP - Recentes Distritos A carregar Unidade Morada Cód. Postal Localidade Telefone Fax Email DIR",
+      "category": "Polícia / Força de Segurança",
+      "website": "https://www.psp.pt/Pages/onde-estamos.aspx",
+      "address": "Portugal",
+      "source": "official_scrape",
+      "confidence": "HIGH",
+      "is_official": true
+    },
+    {
+      "number": "256114200",
+      "name": "PSP - Recentes Distritos A carregar Unidade Morada Cód. Postal Localidade Telefone Fax Email DIR",
+      "category": "Polícia / Força de Segurança",
+      "website": "https://www.psp.pt/Pages/onde-estamos.aspx",
+      "address": "Portugal",
+      "source": "official_scrape",
+      "confidence": "HIGH",
+      "is_official": true
+    },
+    {
+      "number": "256114210",
+      "name": "PSP - Recentes Distritos A carregar Unidade Morada Cód. Postal Localidade Telefone Fax Email DIR",
+      "category": "Polícia / Força de Segurança",
+      "website": "https://www.psp.pt/Pages/onde-estamos.aspx",
+      "address": "Portugal",
+      "source": "official_scrape",
+      "confidence": "HIGH",
+      "is_official": true
+    },
+    {
+      "number": "284100300",
+      "name": "PSP - Recentes Distritos A carregar Unidade Morada Cód. Postal Localidade Telefone Fax Email DIR",
+      "category": "Polícia / Força de Segurança",
+      "website": "https://www.psp.pt/Pages/onde-estamos.aspx",
+      "address": "Portugal",
+      "source": "official_scrape",
+      "confidence": "HIGH",
+      "is_official": true
+    },
+    {
+      "number": "284100328",
+      "name": "PSP - Recentes Distritos A carregar Unidade Morada Cód. Postal Localidade Telefone Fax Email DIR",
+      "category": "Polícia / Força de Segurança",
+      "website": "https://www.psp.pt/Pages/onde-estamos.aspx",
+      "address": "Portugal",
+      "source": "official_scrape",
+      "confidence": "HIGH",
+      "is_official": true
+    },
+    {
+      "number": "285036370",
+      "name": "PSP - Recentes Distritos A carregar Unidade Morada Cód. Postal Localidade Telefone Fax Email DIR",
+      "category": "Polícia / Força de Segurança",
+      "website": "https://www.psp.pt/Pages/onde-estamos.aspx",
+      "address": "Portugal",
+      "source": "official_scrape",
+      "confidence": "HIGH",
+      "is_official": true
+    },
+    {
+      "number": "253600900",
+      "name": "PSP - Recentes Distritos A carregar Unidade Morada Cód. Postal Localidade Telefone Fax Email DIR",
+      "category": "Polícia / Força de Segurança",
+      "website": "https://www.psp.pt/Pages/onde-estamos.aspx",
+      "address": "Portugal",
+      "source": "official_scrape",
+      "confidence": "HIGH",
+      "is_official": true
+    },
+    {
+      "number": "253600929",
+      "name": "PSP - Recentes Distritos A carregar Unidade Morada Cód. Postal Localidade Telefone Fax Email DIR",
+      "category": "Polícia / Força de Segurança",
+      "website": "https://www.psp.pt/Pages/onde-estamos.aspx",
+      "address": "Portugal",
+      "source": "official_scrape",
+      "confidence": "HIGH",
+      "is_official": true
+    },
+    {
+      "number": "253600990",
+      "name": "PSP - Recentes Distritos A carregar Unidade Morada Cód. Postal Localidade Telefone Fax Email DIR",
+      "category": "Polícia / Força de Segurança",
+      "website": "https://www.psp.pt/Pages/onde-estamos.aspx",
+      "address": "Portugal",
+      "source": "official_scrape",
+      "confidence": "HIGH",
+      "is_official": true
+    },
+    {
+      "number": "253600980",
+      "name": "PSP - Recentes Distritos A carregar Unidade Morada Cód. Postal Localidade Telefone Fax Email DIR",
+      "category": "Polícia / Força de Segurança",
+      "website": "https://www.psp.pt/Pages/onde-estamos.aspx",
+      "address": "Portugal",
+      "source": "official_scrape",
+      "confidence": "HIGH",
+      "is_official": true
+    },
+    {
+      "number": "253600830",
+      "name": "PSP - Recentes Distritos A carregar Unidade Morada Cód. Postal Localidade Telefone Fax Email DIR",
+      "category": "Polícia / Força de Segurança",
+      "website": "https://www.psp.pt/Pages/onde-estamos.aspx",
+      "address": "Portugal",
+      "source": "official_scrape",
+      "confidence": "HIGH",
+      "is_official": true
+    },
+    {
+      "number": "253600890",
+      "name": "PSP - Recentes Distritos A carregar Unidade Morada Cód. Postal Localidade Telefone Fax Email DIR",
+      "category": "Polícia / Força de Segurança",
+      "website": "https://www.psp.pt/Pages/onde-estamos.aspx",
+      "address": "Portugal",
+      "source": "official_scrape",
+      "confidence": "HIGH",
+      "is_official": true
+    },
+    {
+      "number": "252035290",
+      "name": "PSP - Recentes Distritos A carregar Unidade Morada Cód. Postal Localidade Telefone Fax Email DIR",
+      "category": "Polícia / Força de Segurança",
+      "website": "https://www.psp.pt/Pages/onde-estamos.aspx",
+      "address": "Portugal",
+      "source": "official_scrape",
+      "confidence": "HIGH",
+      "is_official": true
+    },
+    {
+      "number": "273409100",
+      "name": "PSP - Recentes Distritos A carregar Unidade Morada Cód. Postal Localidade Telefone Fax Email DIR",
+      "category": "Polícia / Força de Segurança",
+      "website": "https://www.psp.pt/Pages/onde-estamos.aspx",
+      "address": "Portugal",
+      "source": "official_scrape",
+      "confidence": "HIGH",
+      "is_official": true
+    },
+    {
+      "number": "273409129",
+      "name": "PSP - Recentes Distritos A carregar Unidade Morada Cód. Postal Localidade Telefone Fax Email DIR",
+      "category": "Polícia / Força de Segurança",
+      "website": "https://www.psp.pt/Pages/onde-estamos.aspx",
+      "address": "Portugal",
+      "source": "official_scrape",
+      "confidence": "HIGH",
+      "is_official": true
+    }
+  ]
+}

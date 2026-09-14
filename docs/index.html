@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en" class="dark">
+<html lang="pt" class="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Telefone Intel — Phone Number Intelligence & Scam Detection Platform</title>
-    <meta name="description" content="Production-grade Phone Number Intelligence and Scam Detection platform for the Portuguese telecom context (+351) and global numbers with zero paid APIs.">
+    <title>Telefone Intel — Inteligência Telefónica e Deteção de Burlas (+351)</title>
+    <meta name="description" content="Plataforma de inteligência sobre números de telefone em Portugal (+351) e internacionais. Validação ANACOM PNN, diretório de esquadras PSP/GNR, blocos institucionais e deteção de burlas MBWay.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -33,7 +33,7 @@
     </script>
     <style>
         .glass-card {
-            background: rgba(15, 23, 42, 0.75);
+            background: rgba(15, 23, 42, 0.78);
             backdrop-filter: blur(16px);
             border: 1px solid rgba(255, 255, 255, 0.08);
         }
@@ -47,468 +47,333 @@
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
-        .risk-gauge-bar {
-            transition: width 0.8s cubic-bezier(0.34, 1.56, 0.64, 1);
+        .risk-gauge-fill {
+            transition: width 0.85s cubic-bezier(0.34, 1.56, 0.64, 1);
         }
     </style>
 </head>
-<body class="bg-slate-950 text-slate-100 font-sans min-h-screen selection:bg-indigo-500 selection:text-white relative overflow-x-hidden">
+<body class="bg-[#090d16] text-slate-100 font-sans min-h-screen selection:bg-indigo-500 selection:text-white relative overflow-x-hidden">
 
     <!-- Ambient background glows -->
     <div class="fixed top-[-15%] left-[-10%] w-[55vw] h-[55vw] rounded-full bg-indigo-600/10 blur-[140px] pointer-events-none -z-10"></div>
     <div class="fixed bottom-[-10%] right-[-10%] w-[50vw] h-[50vw] rounded-full bg-sky-600/10 blur-[130px] pointer-events-none -z-10"></div>
-    <div class="fixed top-[40%] left-[50%] -translate-x-1/2 w-[60vw] h-[30vw] rounded-full bg-emerald-600/5 blur-[150px] pointer-events-none -z-10"></div>
 
-    <!-- Header / Navbar -->
-    <header class="sticky top-0 z-50 glass-card border-b border-slate-800/80">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+    <!-- Top Navigation Bar -->
+    <header class="border-b border-slate-800/80 bg-slate-950/80 backdrop-blur-md sticky top-0 z-40">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
             <div class="flex items-center gap-3">
-                <div class="w-11 h-11 rounded-2xl bg-gradient-to-tr from-indigo-600 via-indigo-500 to-sky-400 p-[1px] shadow-lg shadow-indigo-500/20">
-                    <div class="w-full h-full bg-slate-950 rounded-2xl flex items-center justify-center">
-                        <svg class="w-6 h-6 text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                        </svg>
-                    </div>
+                <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-indigo-600 to-sky-500 flex items-center justify-center shadow-lg shadow-indigo-500/20 text-white font-black text-xl">
+                    📞
                 </div>
                 <div>
-                    <span class="font-bold text-lg tracking-tight text-white flex items-center gap-2">
-                        Telefone Intel
-                        <span class="text-[10px] uppercase font-bold tracking-widest px-2 py-0.5 rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">v1.0.0</span>
-                    </span>
-                    <p class="text-xs text-slate-400 font-mono">ANACOM PNN & OSINT Engine (+351)</p>
+                    <div class="flex items-center gap-2">
+                        <span class="font-bold text-base sm:text-lg tracking-tight gradient-text">Telefone Intel</span>
+                        <span class="text-[10px] font-mono px-2 py-0.5 rounded-full bg-indigo-500/10 text-indigo-400 border border-indigo-500/20 font-semibold">Web App</span>
+                    </div>
+                    <p class="text-[11px] text-slate-400 hidden sm:block">PNN ANACOM • Diretório Oficial • Blocos Institucionais • OSINT Dorking</p>
                 </div>
             </div>
 
-            <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-300">
-                <a href="#simulator" class="hover:text-white transition-colors">Live Demo</a>
-                <a href="#architecture" class="hover:text-white transition-colors">Architecture</a>
-                <a href="#features" class="hover:text-white transition-colors">Features</a>
-                <a href="#api" class="hover:text-white transition-colors">API Docs</a>
-            </nav>
-
-            <div class="flex items-center gap-3">
-                <a href="https://github.com/jd164/telefone" target="_blank" rel="noopener" class="flex items-center gap-2 px-4 py-2 rounded-xl bg-slate-900 hover:bg-slate-800 text-slate-200 border border-slate-700/80 transition-all font-medium text-sm shadow-sm">
-                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" />
-                    </svg>
-                    <span>GitHub Repo</span>
+            <div class="flex items-center gap-2 sm:gap-3">
+                <!-- Backend status indicator / settings toggle -->
+                <button id="backendToggleBtn" class="inline-flex items-center gap-2 text-xs font-mono px-3 py-1.5 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-800 transition" title="Configurar ligação ao servidor backend">
+                    <span id="backendStatusDot" class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                    <span id="backendStatusText" class="text-slate-300">Motor Ativo</span>
+                    <svg class="w-3.5 h-3.5 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                </button>
+                <a href="https://github.com/jd164/telefone" target="_blank" rel="noopener" class="hidden md:inline-flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-slate-300 border border-slate-800 transition">
+                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+                    <span>GitHub</span>
                 </a>
             </div>
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-24">
-        <div class="text-center max-w-3xl mx-auto mb-16">
-            <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-indigo-500/10 border border-indigo-500/30 text-indigo-300 text-xs font-semibold mb-6">
-                <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-                Zero Paid APIs • 100% Free & Open Source
-            </div>
-            <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight text-white mb-6 leading-tight">
-                Phone Intelligence & <br><span class="gradient-text">Scam Detection Engine</span>
+    <!-- Main Container -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
+
+        <!-- Hero & Search Input Section -->
+        <section class="text-center max-w-3xl mx-auto space-y-4">
+            <h1 class="text-3xl sm:text-5xl font-extrabold tracking-tight text-white">
+                Identifique Qualquer Número em <span class="gradient-text">Segundos</span>
             </h1>
-            <p class="text-lg text-slate-400 leading-relaxed">
-                Automated multi-layered phone reputation and identity aggregator tailored for Portugal's national numbering plan (ANACOM PNN) and international carriers. Detects MBWay scams, spoofing, police lines, and legitimate services with zero cost.
+            <p class="text-sm sm:text-base text-slate-400">
+                Pesquisa instantânea em 7 camadas: PNN ANACOM (+351), Diretório de Forças Policiais (PSP/GNR), Blocos Institucionais Distritais e Deteção de Burlas MBWay.
             </p>
+
+            <!-- Search Input Box -->
+            <div class="pt-2">
+                <form id="searchForm" onsubmit="handleSearch(event)">
+                    <div class="relative flex flex-col sm:flex-row items-stretch gap-2 p-2 rounded-2xl glass-card border border-slate-700/80 shadow-2xl">
+                        <div class="relative flex-grow flex items-center">
+                            <span class="absolute left-4 text-slate-400 font-mono text-sm select-none">🇵🇹</span>
+                            <input
+                                type="text"
+                                id="phoneInput"
+                                placeholder="Ex: 214 849 700, 912 345 678, +351 217 657 500, 308..."
+                                class="w-full pl-12 pr-4 py-3.5 bg-slate-900/90 text-white text-base font-mono rounded-xl border border-slate-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/20 outline-none transition"
+                                autocomplete="off"
+                                autofocus
+                            >
+                        </div>
+                        <button
+                            type="submit"
+                            id="searchBtn"
+                            class="px-8 py-3.5 bg-gradient-to-r from-indigo-600 to-sky-600 hover:from-indigo-500 hover:to-sky-500 text-white font-semibold rounded-xl transition shadow-lg shadow-indigo-600/30 flex items-center justify-center gap-2 select-none"
+                        >
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+                            <span>Analisar</span>
+                        </button>
+                    </div>
+                </form>
+
+                <div class="flex items-center justify-between text-xs text-slate-400 pt-2 px-2">
+                    <label class="flex items-center gap-2 cursor-pointer hover:text-slate-300">
+                        <input type="checkbox" id="refreshCheck" class="rounded bg-slate-800 border-slate-700 text-indigo-600 focus:ring-indigo-500/20">
+                        <span>Forçar varrimento em direto (se backend ativo)</span>
+                    </label>
+                    <span class="text-slate-500">Suporta formato E.164 (+351) e nacional</span>
+                </div>
+            </div>
+
+            <!-- Quick Test Sample Pills -->
+            <div class="flex flex-wrap items-center justify-center gap-2 pt-1">
+                <span class="text-xs text-slate-400 font-medium">Exemplos:</span>
+                <button onclick="quickAnalyze('217657500')" class="text-xs px-2.5 py-1 rounded-full bg-slate-900 hover:bg-slate-800 text-indigo-300 border border-slate-800 transition">
+                    👮 217 657 500 (PSP Sede)
+                </button>
+                <button onclick="quickAnalyze('214849700')" class="text-xs px-2.5 py-1 rounded-full bg-slate-900 hover:bg-slate-800 text-indigo-300 border border-slate-800 transition">
+                    🛡️ 214 849 700 (PSP Cascais)
+                </button>
+                <button onclick="quickAnalyze('808242424')" class="text-xs px-2.5 py-1 rounded-full bg-slate-900 hover:bg-slate-800 text-sky-300 border border-slate-800 transition">
+                    🏥 808 24 24 24 (SNS 24)
+                </button>
+                <button onclick="quickAnalyze('912345678')" class="text-xs px-2.5 py-1 rounded-full bg-slate-900 hover:bg-slate-800 text-emerald-300 border border-slate-800 transition">
+                    📱 912 345 678 (Telemóvel Limpo)
+                </button>
+                <button onclick="quickAnalyze('308123456')" class="text-xs px-2.5 py-1 rounded-full bg-slate-900 hover:bg-slate-800 text-yellow-300 border border-slate-800 transition">
+                    🌐 308 123 456 (VoIP Nómada)
+                </button>
+                <button onclick="quickAnalyze('931435295')" class="text-xs px-2.5 py-1 rounded-full bg-rose-500/10 hover:bg-rose-500/20 text-rose-300 border border-rose-500/30 transition">
+                    ⚠️ 931 435 295 (Burla MBWay)
+                </button>
+            </div>
+        </section>
+
+        <!-- Loading State -->
+        <div id="loadingBox" class="hidden py-12 text-center">
+            <div class="inline-block animate-spin rounded-full h-10 w-10 border-4 border-indigo-500 border-t-transparent"></div>
+            <p class="mt-4 text-sm text-slate-400 font-mono">A processar número e a correlacionar bases de dados...</p>
         </div>
 
-        <!-- Interactive Live Simulator -->
-        <section id="simulator" class="mb-24 scroll-mt-24">
-            <div class="glass-card rounded-3xl p-6 sm:p-10 shadow-2xl shadow-indigo-950/50 border border-indigo-500/20">
-                <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-6 pb-8 border-b border-slate-800">
+        <!-- Results Section -->
+        <section id="resultsSection" class="space-y-6">
+
+            <!-- Primary Verdict Hero Card -->
+            <div class="glass-card rounded-3xl p-6 sm:p-8 border border-slate-800 shadow-2xl relative overflow-hidden">
+                <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-6 pb-6 border-b border-slate-800/80">
                     <div>
-                        <h2 class="text-2xl font-bold text-white flex items-center gap-2">
-                            Interactive Platform Simulator
-                            <span class="text-xs px-2.5 py-1 rounded-lg bg-indigo-500/20 text-indigo-300 font-mono">Live Demo Mode</span>
-                        </h2>
-                        <p class="text-slate-400 text-sm mt-1">Select a benchmark test case below to inspect the multi-layer classification and risk score in real time.</p>
+                        <div class="flex items-center gap-3 mb-2">
+                            <h2 id="resPhoneTitle" class="text-3xl sm:text-4xl font-black font-mono tracking-tight text-white">+351 214 849 700</h2>
+                            <span id="resLineTypeBadge" class="text-xs font-mono font-semibold px-2.5 py-1 rounded-lg bg-slate-800 text-slate-300 border border-slate-700">FIXED_LINE</span>
+                        </div>
+                        <p id="resCountrySubtitle" class="text-xs text-slate-400 font-mono">Portugal • Formato E.164 Nacional</p>
                     </div>
 
-                    <!-- Preset test case selector -->
-                    <div class="flex flex-wrap gap-2">
-                        <button onclick="simulateCase('psp_hq')" class="px-3 py-1.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-xs font-semibold text-slate-300 border border-slate-700 transition">217 657 500 (PSP Direção)</button>
-                        <button onclick="simulateCase('psp_cascais')" class="px-3 py-1.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-xs font-semibold text-slate-300 border border-slate-700 transition">214 849 700 (PSP Cascais)</button>
-                        <button onclick="simulateCase('personal_clean')" class="px-3 py-1.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-xs font-semibold text-slate-300 border border-slate-700 transition">912 345 678 (Clean Mobile)</button>
-                        <button onclick="simulateCase('voip_twilio')" class="px-3 py-1.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-xs font-semibold text-slate-300 border border-slate-700 transition">308 123 456 (Nomadic VoIP)</button>
-                        <button onclick="simulateCase('mbway_scam')" class="px-3 py-1.5 rounded-xl bg-rose-500/20 hover:bg-rose-500/30 text-xs font-semibold text-rose-300 border border-rose-500/30 transition">931 435 295 (MBWay Phishing)</button>
+                    <!-- Badges Row -->
+                    <div class="flex flex-wrap items-center gap-2">
+                        <!-- Confidence Badge -->
+                        <span id="resConfidenceBadge" class="px-3.5 py-1 rounded-xl text-xs font-bold bg-indigo-500/20 text-indigo-400 border border-indigo-500/40">Confiança: ALTA</span>
+                        <!-- Matched Layer Badge -->
+                        <span id="resMatchedByBadge" class="px-3.5 py-1 rounded-xl text-xs font-semibold bg-slate-800 text-slate-300 border border-slate-700">Consenso OSINT Multi-Fonte</span>
+                        <!-- Caller Category Badge -->
+                        <span id="resCallerCategoryBadge" class="px-3.5 py-1 rounded-xl text-xs font-bold bg-slate-900 text-slate-200 border border-slate-700">Força de Segurança / Polícia</span>
                     </div>
                 </div>
 
-                <!-- Simulation Output Display -->
-                <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 pt-8">
-                    <!-- Left: Risk Meter & Verdict -->
-                    <div class="lg:col-span-5 flex flex-col justify-between p-6 rounded-2xl bg-slate-900/60 border border-slate-800">
-                        <div>
-                            <div class="flex items-center justify-between mb-4">
-                                <span class="text-xs font-mono uppercase tracking-wider text-slate-400">Risk Assessment</span>
-                                <span id="demoRiskBadge" class="px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-emerald-500/20 text-emerald-400 border border-emerald-500/40">SAFE / LOW RISK</span>
-                            </div>
-
-                            <div class="flex items-baseline gap-3 mb-2">
-                                <span id="demoRiskScore" class="text-5xl font-black tracking-tight text-emerald-400">0</span>
-                                <span class="text-slate-500 text-lg font-bold">/ 100</span>
-                            </div>
-
-                            <!-- Visual Bar -->
-                            <div class="w-full h-3 rounded-full bg-slate-800 overflow-hidden mb-6">
-                                <div id="demoRiskBar" class="risk-gauge-bar h-full bg-emerald-500 rounded-full w-[0%]"></div>
-                            </div>
-
-                            <div class="space-y-3 pt-2">
-                                <div class="flex justify-between items-center text-xs pb-2 border-b border-slate-800/80">
-                                    <span class="text-slate-400">Target Number</span>
-                                    <span id="demoPhone" class="font-mono font-bold text-white text-sm">+351 217 657 500</span>
-                                </div>
-                                <div class="flex justify-between items-center text-xs pb-2 border-b border-slate-800/80">
-                                    <span class="text-slate-400">Confidence Level</span>
-                                    <span id="demoConfidence" class="font-semibold text-indigo-400">HIGH (High Consensus)</span>
-                                </div>
-                                <div class="flex justify-between items-center text-xs pb-2 border-b border-slate-800/80">
-                                    <span class="text-slate-400">Layer Matched</span>
-                                    <span id="demoMatchedBy" class="font-mono text-slate-300">trusted_directory_exact</span>
-                                </div>
-                                <div class="flex justify-between items-center text-xs pb-2 border-b border-slate-800/80">
-                                    <span class="text-slate-400">Identified Carrier / Type</span>
-                                    <span id="demoCarrier" class="text-slate-300">PSTN Fixed Line (Lisbon)</span>
-                                </div>
-                            </div>
+                <!-- Score Meter & Recommendation Grid -->
+                <div class="grid grid-cols-1 md:grid-cols-12 gap-6 pt-6 items-center">
+                    <!-- Gauge -->
+                    <div class="md:col-span-4 p-6 rounded-2xl bg-slate-950/70 border border-slate-800/80 flex flex-col justify-center">
+                        <div class="flex justify-between items-center mb-2">
+                            <span class="text-xs font-mono uppercase tracking-wider text-slate-400">Nível de Risco</span>
+                            <span id="resRiskLevelBadge" class="px-3 py-0.5 rounded-full text-xs font-bold uppercase tracking-wider bg-emerald-500/20 text-emerald-400 border border-emerald-500/40">SEGURO / BAIXO</span>
                         </div>
-
-                        <div class="mt-6 p-4 rounded-xl bg-slate-950/80 border border-slate-800">
-                            <span class="text-[11px] font-bold uppercase tracking-wider text-slate-500 block mb-1">Synthesized Recommendation</span>
-                            <p id="demoRecommendation" class="text-xs text-slate-300 leading-relaxed font-medium">
-                                Número oficial e verificado (PSP Direção Nacional). Contacto legítimo de utilidade pública e segurança.
-                            </p>
+                        <div class="flex items-baseline gap-2 mb-3">
+                            <span id="resRiskScoreNumber" class="text-5xl font-black text-emerald-400 font-mono">0</span>
+                            <span class="text-slate-500 text-lg font-bold">/ 100</span>
+                        </div>
+                        <div class="w-full h-3 rounded-full bg-slate-800 overflow-hidden">
+                            <div id="resRiskBarFill" class="risk-gauge-fill h-full bg-emerald-500 rounded-full w-[0%]"></div>
                         </div>
                     </div>
 
-                    <!-- Right: Multi-Layer Diagnostics -->
-                    <div class="lg:col-span-7 space-y-4">
-                        <h3 class="text-sm font-mono uppercase tracking-wider text-slate-400">Pipeline Layer Diagnostics</h3>
+                    <!-- Recommendation Text -->
+                    <div class="md:col-span-8 p-6 rounded-2xl bg-slate-950/70 border border-slate-800/80 flex flex-col justify-center">
+                        <span class="text-xs font-mono uppercase tracking-wider text-slate-400 mb-1">Recomendação do Sistema</span>
+                        <p id="resRecommendationText" class="text-sm sm:text-base text-slate-200 font-medium leading-relaxed">
+                            Número oficial e verificado. Contacto legítimo de utilidade pública e segurança.
+                        </p>
+                        <p id="resRecommendationEn" class="text-xs text-slate-400 mt-2 italic font-mono">
+                            Official verified public safety contact.
+                        </p>
+                    </div>
+                </div>
+            </div>
 
-                        <!-- Layer Breakdown Cards -->
-                        <div class="space-y-3">
-                            <div class="p-4 rounded-xl bg-slate-900/40 border border-slate-800/80 flex items-start gap-4">
-                                <div class="w-8 h-8 rounded-lg bg-indigo-500/10 border border-indigo-500/20 text-indigo-400 flex items-center justify-center font-mono text-xs font-bold shrink-0">L1</div>
-                                <div class="flex-1 text-xs">
-                                    <div class="flex justify-between font-semibold text-white mb-1">
-                                        <span>ANACOM Regulatory Prefix Engine</span>
-                                        <span id="demoL1Status" class="text-emerald-400 font-mono">MATCHED (Fixed Lisbon)</span>
-                                    </div>
-                                    <p id="demoL1Desc" class="text-slate-400">Allocated in National Numbering Plan (PNN) geographic range 21 (Lisboa District).</p>
-                                </div>
-                            </div>
+            <!-- Details Grid: Telecom & Verified Entity -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
 
-                            <div class="p-4 rounded-xl bg-slate-900/40 border border-slate-800/80 flex items-start gap-4">
-                                <div class="w-8 h-8 rounded-lg bg-sky-500/10 border border-sky-500/20 text-sky-400 flex items-center justify-center font-mono text-xs font-bold shrink-0">L2</div>
-                                <div class="flex-1 text-xs">
-                                    <div class="flex justify-between font-semibold text-white mb-1">
-                                        <span>Official Curated Directory (189+ Entities)</span>
-                                        <span id="demoL2Status" class="text-emerald-400 font-mono">EXACT HIT (Risk Locked to 0)</span>
-                                    </div>
-                                    <p id="demoL2Desc" class="text-slate-400">Police & Public Safety verified catalog: PSP Direção Nacional (Campo Grande).</p>
-                                </div>
-                            </div>
-
-                            <div class="p-4 rounded-xl bg-slate-900/40 border border-slate-800/80 flex items-start gap-4">
-                                <div class="w-8 h-8 rounded-lg bg-purple-500/10 border border-purple-500/20 text-purple-400 flex items-center justify-center font-mono text-xs font-bold shrink-0">L3</div>
-                                <div class="flex-1 text-xs">
-                                    <div class="flex justify-between font-semibold text-white mb-1">
-                                        <span>OSINT Dork Multi-Source Consensus</span>
-                                        <span id="demoL3Status" class="text-indigo-300 font-mono">CONSENSUS VERIFIED</span>
-                                    </div>
-                                    <p id="demoL3Desc" class="text-slate-400">Multiple independent domains confirm police station identity via regex text extraction.</p>
-                                </div>
-                            </div>
-
-                            <div class="p-4 rounded-xl bg-slate-900/40 border border-slate-800/80 flex items-start gap-4">
-                                <div class="w-8 h-8 rounded-lg bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 flex items-center justify-center font-mono text-xs font-bold shrink-0">L4</div>
-                                <div class="flex-1 text-xs">
-                                    <div class="flex justify-between font-semibold text-white mb-1">
-                                        <span>Community Reputation Scrapers</span>
-                                        <span id="demoL4Status" class="text-slate-400 font-mono">0 COMPLAINTS</span>
-                                    </div>
-                                    <p id="demoL4Desc" class="text-slate-400">Clean crowdsourced reputation across Tellows, Ligaram-me, and ShouldIAnswer.</p>
-                                </div>
-                            </div>
+                <!-- Telecom & ANACOM Metadata -->
+                <div class="glass-card rounded-2xl p-6 border border-slate-800">
+                    <h3 class="text-sm font-bold text-white flex items-center gap-2 mb-4">
+                        <span>📡</span>
+                        <span>Metadados Regulamentares (PNN ANACOM)</span>
+                    </h3>
+                    <div class="space-y-3 text-xs">
+                        <div class="flex justify-between pb-2 border-b border-slate-800/80">
+                            <span class="text-slate-400">Operador Atribuído</span>
+                            <span id="resMetaOperator" class="font-bold text-slate-200">MEO / PSTN Fixo</span>
                         </div>
+                        <div class="flex justify-between pb-2 border-b border-slate-800/80">
+                            <span class="text-slate-400">Tecnologia de Rede</span>
+                            <span id="resMetaTech" class="font-mono text-slate-300">PSTN / FTTH</span>
+                        </div>
+                        <div class="flex justify-between pb-2 border-b border-slate-800/80">
+                            <span class="text-slate-400">Tipo de Linha / Serviço</span>
+                            <span id="resMetaService" class="font-mono text-slate-300">Geographic Fixed</span>
+                        </div>
+                        <div class="flex justify-between pb-2 border-b border-slate-800/80">
+                            <span class="text-slate-400">Área Geográfica</span>
+                            <span id="resMetaArea" class="font-semibold text-slate-200">Lisboa / Cascais</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-slate-400">VoIP Nómada</span>
+                            <span id="resMetaVoip" class="font-mono text-slate-300">Não (Linha Fixa Tradicional)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Verified Entity or Commercial Card -->
+                <div id="verifiedEntityCard" class="glass-card rounded-2xl p-6 border border-slate-800">
+                    <h3 class="text-sm font-bold text-white flex items-center gap-2 mb-4">
+                        <span>🏛️</span>
+                        <span id="entityCardTitle">Entidade Oficial Confirmada</span>
+                    </h3>
+                    <div class="space-y-3 text-xs">
+                        <div class="flex justify-between pb-2 border-b border-slate-800/80">
+                            <span class="text-slate-400">Designação / Nome</span>
+                            <span id="resEntityName" class="font-bold text-white">Divisão Policial de Cascais (PSP)</span>
+                        </div>
+                        <div class="flex justify-between pb-2 border-b border-slate-800/80">
+                            <span class="text-slate-400">Categoria</span>
+                            <span id="resEntityCategory" class="text-indigo-300 font-semibold">Força de Segurança / Polícia</span>
+                        </div>
+                        <div class="flex justify-between pb-2 border-b border-slate-800/80">
+                            <span class="text-slate-400">Localização / Distrito</span>
+                            <span id="resEntityAddress" class="text-slate-300">Cascais / Estoril (Lisboa)</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-slate-400">Website Oficial</span>
+                            <a id="resEntityWebsite" href="https://www.psp.pt" target="_blank" class="text-indigo-400 hover:text-indigo-300 underline font-mono text-[11px] truncate max-w-[200px]">https://www.psp.pt</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Community Feedback & Tags -->
+            <div class="glass-card rounded-2xl p-6 border border-slate-800">
+                <div class="flex items-center justify-between mb-4">
+                    <h3 class="text-sm font-bold text-white flex items-center gap-2">
+                        <span>👥</span>
+                        <span>Relatórios Comunitários & Etiquetas</span>
+                    </h3>
+                    <span id="resTotalReports" class="text-xs text-slate-400 font-mono">0 queixas registadas</span>
+                </div>
+
+                <div id="resTagsContainer" class="flex flex-wrap gap-2 mb-4">
+                    <span class="text-xs px-2.5 py-1 rounded-lg bg-slate-800 text-slate-400 border border-slate-700">Sem etiquetas suspeitas</span>
+                </div>
+
+                <div id="resCommentsList" class="space-y-3 pt-2">
+                    <div class="p-3 rounded-xl bg-slate-900/40 border border-slate-800 text-xs text-slate-400 italic">
+                        Não existem comentários negativos registados para este número nas bases de dados comunitárias.
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Core Features Grid -->
-        <section id="features" class="mb-24 scroll-mt-24">
-            <div class="text-center max-w-2xl mx-auto mb-16">
-                <h2 class="text-3xl font-bold text-white mb-4">Engineered for Accuracy & Privacy</h2>
-                <p class="text-slate-400 text-sm">Every layer is designed to operate autonomously without third-party data tracking or commercial API dependencies.</p>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <div class="glass-card glass-card-hover p-6 rounded-2xl">
-                    <div class="w-10 h-10 rounded-xl bg-indigo-500/10 text-indigo-400 flex items-center justify-center mb-4">
-                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
-                    </div>
-                    <h3 class="text-base font-bold text-white mb-2">ANACOM National Plan (PNN)</h3>
-                    <p class="text-slate-400 text-xs leading-relaxed">Full offline resolution for geographic landlines (21 to 296), mobile operators (MEO, Vodafone, NOS, DIGI), and nomadic VoIP prefixes (300-309).</p>
+        <!-- District Coverage & Stats -->
+        <section class="p-6 rounded-2xl glass-card border border-slate-800/80">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                <div>
+                    <h3 class="text-base font-bold text-white">Cobertura Territorial Integrada</h3>
+                    <p class="text-xs text-slate-400 mt-0.5">189+ Entidades no Diretório Nacional • 70+ Blocos Institucionais Ativos em 20 Distritos</p>
                 </div>
-
-                <div class="glass-card glass-card-hover p-6 rounded-2xl">
-                    <div class="w-10 h-10 rounded-xl bg-sky-500/10 text-sky-400 flex items-center justify-center mb-4">
-                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>
-                    </div>
-                    <h3 class="text-base font-bold text-white mb-2">Dynamic Institutional Blocks</h3>
-                    <p class="text-slate-400 text-xs leading-relaxed">70+ dynamic 4 and 5-digit institutional blocks automatically cluster stations and public extensions across 20 districts, eliminating false scam positives.</p>
-                </div>
-
-                <div class="glass-card glass-card-hover p-6 rounded-2xl">
-                    <div class="w-10 h-10 rounded-xl bg-purple-500/10 text-purple-400 flex items-center justify-center mb-4">
-                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
-                    </div>
-                    <h3 class="text-base font-bold text-white mb-2">OSINT Consensus Dorking</h3>
-                    <p class="text-slate-400 text-xs leading-relaxed">Parallel scraping across DuckDuckGo HTML, Brave Search HTML, and Bing. Text regex parser extracts police, hospital, and civic signals even from unofficial websites.</p>
-                </div>
-
-                <div class="glass-card glass-card-hover p-6 rounded-2xl">
-                    <div class="w-10 h-10 rounded-xl bg-emerald-500/10 text-emerald-400 flex items-center justify-center mb-4">
-                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>
-                    </div>
-                    <h3 class="text-base font-bold text-white mb-2">Zero Sensitive Data Leakage</h3>
-                    <p class="text-slate-400 text-xs leading-relaxed">All operations use local databases and open search indices. No user queries, telemetry, or personal lookup history are sent to external analytics.</p>
-                </div>
-
-                <div class="glass-card glass-card-hover p-6 rounded-2xl">
-                    <div class="w-10 h-10 rounded-xl bg-amber-500/10 text-amber-400 flex items-center justify-center mb-4">
-                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>
-                    </div>
-                    <h3 class="text-base font-bold text-white mb-2">MBWay & Scam Spike Protection</h3>
-                    <p class="text-slate-400 text-xs leading-relaxed">Detects aggressive telemarketing, silent ping calls, and fraudulent MBWay buyers. Automatically elevates risk to 85-100 CRITICAL on fraud keyword spikes.</p>
-                </div>
-
-                <div class="glass-card glass-card-hover p-6 rounded-2xl">
-                    <div class="w-10 h-10 rounded-xl bg-rose-500/10 text-rose-400 flex items-center justify-center mb-4">
-                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/></svg>
-                    </div>
-                    <h3 class="text-base font-bold text-white mb-2">105 Automated Tests</h3>
-                    <p class="text-slate-400 text-xs leading-relaxed">Full Pytest automated suite covering phone normalizers, ANACOM ranges, known numbers benchmark (75 entries), and dork signal consensus scoring.</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- API Reference -->
-        <section id="api" class="mb-24 scroll-mt-24">
-            <div class="glass-card rounded-3xl p-8 border border-slate-800">
-                <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6">
-                    <div>
-                        <h2 class="text-2xl font-bold text-white">REST API Reference</h2>
-                        <p class="text-slate-400 text-sm mt-1">Available on your local instance at <code class="text-indigo-300 font-mono">http://127.0.0.1:8000/api/v1</code></p>
-                    </div>
-                    <a href="https://github.com/jd164/telefone" target="_blank" rel="noopener" class="text-xs font-mono px-3 py-1.5 rounded-xl bg-indigo-500/10 text-indigo-300 border border-indigo-500/30 hover:bg-indigo-500/20 transition">View Swagger / OpenAPI</a>
-                </div>
-
-                <div class="space-y-4">
-                    <div class="p-4 rounded-xl bg-slate-900/80 border border-slate-800">
-                        <div class="flex items-center gap-3 font-mono text-xs mb-2">
-                            <span class="px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-400 font-bold">GET</span>
-                            <span class="text-white font-bold">/api/v1/lookup?number={number}&refresh={bool}</span>
-                        </div>
-                        <p class="text-xs text-slate-400">Executes the full multi-layer intelligence pipeline against the specified telephone number.</p>
-                    </div>
-
-                    <div class="p-4 rounded-xl bg-slate-900/80 border border-slate-800">
-                        <div class="flex items-center gap-3 font-mono text-xs mb-2">
-                            <span class="px-2 py-0.5 rounded bg-sky-500/20 text-sky-400 font-bold">GET</span>
-                            <span class="text-white font-bold">/api/v1/admin/directory-stats</span>
-                        </div>
-                        <p class="text-xs text-slate-400">Returns statistics on curated vs dynamically scraped police and hospital entries, plus active blocks.</p>
-                    </div>
-
-                    <div class="p-4 rounded-xl bg-slate-900/80 border border-slate-800">
-                        <div class="flex items-center gap-3 font-mono text-xs mb-2">
-                            <span class="px-2 py-0.5 rounded bg-purple-500/20 text-purple-400 font-bold">GET</span>
-                            <span class="text-white font-bold">/api/v1/admin/coverage-report</span>
-                        </div>
-                        <p class="text-xs text-slate-400">Reports district-by-district coverage metrics across all 20 Portuguese administrative regions.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Quickstart Code Section -->
-        <section class="mb-24">
-            <div class="p-8 rounded-3xl bg-slate-900/80 border border-slate-800">
-                <h2 class="text-xl font-bold text-white mb-4">Run Locally in 3 Steps</h2>
-                <div class="bg-slate-950 p-4 rounded-xl font-mono text-xs text-slate-300 overflow-x-auto space-y-2 border border-slate-800/80">
-                    <p class="text-slate-500"># 1. Clone the repository</p>
-                    <p class="text-indigo-400">git clone https://github.com/jd164/telefone.git && cd telefone</p>
-                    <p class="text-slate-500 mt-2"># 2. Install dependencies</p>
-                    <p class="text-indigo-400">pip install -r requirements.txt</p>
-                    <p class="text-slate-500 mt-2"># 3. Start the FastAPI development server</p>
-                    <p class="text-emerald-400">uvicorn app.main:app --host 127.0.0.1 --port 8000 --reload</p>
+                <div class="flex gap-4 font-mono text-xs text-slate-300">
+                    <div><span class="text-emerald-400 font-bold">100%</span> Zero Paid APIs</div>
+                    <div><span class="text-indigo-400 font-bold">105</span> Testes Aprovados</div>
                 </div>
             </div>
         </section>
     </main>
 
-    <!-- Footer -->
-    <footer class="glass-card border-t border-slate-800 py-12">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
-            <p>© 2026 jd164. Licensed under the MIT License.</p>
-            <div class="flex items-center gap-6">
-                <a href="https://github.com/jd164/telefone" class="hover:text-slate-400 transition">GitHub Repository</a>
-                <a href="https://github.com/jd164/telefone/blob/main/LICENSE" class="hover:text-slate-400 transition">MIT License</a>
+    <!-- Backend Settings Modal -->
+    <div id="backendModal" class="hidden fixed inset-0 z-50 bg-black/70 backdrop-blur-sm flex items-center justify-center p-4">
+        <div class="glass-card max-w-md w-full p-6 rounded-3xl border border-slate-700 shadow-2xl space-y-4">
+            <div class="flex justify-between items-center border-b border-slate-800 pb-3">
+                <h3 class="text-base font-bold text-white">Configuração do Backend</h3>
+                <button onclick="closeBackendModal()" class="text-slate-400 hover:text-white">&times;</button>
+            </div>
+            <p class="text-xs text-slate-300">
+                Esta app funciona em modo autónomo diretamente no browser. Se tiveres o backend FastAPI a correr no teu computador ou na cloud (ex.: Render), insere o URL abaixo:
+            </p>
+            <div>
+                <label class="block text-xs font-mono text-slate-400 mb-1">URL da API Backend</label>
+                <input type="text" id="backendUrlInput" value="http://127.0.0.1:8000" class="w-full px-3 py-2 bg-slate-900 text-white text-xs font-mono rounded-xl border border-slate-700 focus:border-indigo-500 outline-none">
+            </div>
+            <div class="flex justify-end gap-2 pt-2">
+                <button onclick="resetBackendUrl()" class="px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-xs font-semibold text-slate-300">Modo Local (127.0.0.1)</button>
+                <button onclick="saveBackendUrl()" class="px-5 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-xs font-semibold text-white shadow-lg shadow-indigo-600/30">Salvar e Testar</button>
             </div>
         </div>
-    </footer>
+    </div>
 
-    <!-- Interactive Simulator Script -->
+    <!-- Client-Side Engine Script -->
+    <script src="js/engine.js"></script>
     <script>
-        const CASES = {
-            'psp_hq': {
-                phone: '+351 217 657 500',
-                score: 0,
-                level: 'LOW',
-                levelBadge: 'SAFE / OFFICIAL',
-                levelColor: 'text-emerald-400',
-                badgeBg: 'bg-emerald-500/20 text-emerald-400 border-emerald-500/40',
-                barColor: 'bg-emerald-500',
-                barWidth: '2%',
-                confidence: 'HIGH (Verified Directory)',
-                matchedBy: 'trusted_directory_exact',
-                carrier: 'PSTN Fixed Line (Lisbon)',
-                rec: 'Número oficial e verificado (PSP Direção Nacional). Contacto legítimo de utilidade pública e segurança.',
-                l1: 'MATCHED (Fixed Lisbon PNN)',
-                l1Desc: 'Allocated in ANACOM PNN geographic range 21 (Lisboa District).',
-                l2: 'EXACT HIT (Risk Locked to 0)',
-                l2Desc: 'Verified Police catalog: PSP Direção Nacional (Campo Grande).',
-                l3: 'SKIPPED (Exact Hit)',
-                l3Desc: 'Direct match found in official directory, bypassing external web dorks.',
-                l4: '0 COMPLAINTS',
-                l4Desc: 'Verified public authority line with clean community sentiment.'
-            },
-            'psp_cascais': {
-                phone: '+351 214 849 700',
-                score: 0,
-                level: 'LOW',
-                levelBadge: 'SAFE / OSINT CONSENSUS',
-                levelColor: 'text-emerald-400',
-                badgeBg: 'bg-emerald-500/20 text-emerald-400 border-emerald-500/40',
-                barColor: 'bg-emerald-500',
-                barWidth: '2%',
-                confidence: 'HIGH (Multi-Source Consensus)',
-                matchedBy: 'dork_consensus',
-                carrier: 'PSTN Fixed Line (Cascais / Estoril)',
-                rec: 'Consenso confirmado por múltiplas fontes independentes (2 fontes): Divisão Policial de Cascais. Contacto oficial legítimo.',
-                l1: 'MATCHED (Fixed Cascais)',
-                l1Desc: 'Allocated in ANACOM PNN geographic range 21 (Cascais/Estoril).',
-                l2: 'DYNAMIC BLOCK MATCH',
-                l2Desc: 'Matched active institutional block (21484) for PSP Cascais.',
-                l3: 'CONSENSUS VERIFIED (HIGH)',
-                l3Desc: 'DuckDuckGo + Brave + Bing consensus identified Divisão Policial de Cascais.',
-                l4: '0 COMPLAINTS',
-                l4Desc: 'Legitimate public safety station contact line.'
-            },
-            'personal_clean': {
-                phone: '+351 912 345 678',
-                score: 5,
-                level: 'LOW',
-                levelBadge: 'CLEAN PERSONAL NUMBER',
-                levelColor: 'text-emerald-400',
-                badgeBg: 'bg-emerald-500/20 text-emerald-400 border-emerald-500/40',
-                barColor: 'bg-emerald-500',
-                barWidth: '5%',
-                confidence: 'LOW (No Negative Reports)',
-                matchedBy: 'anacom_range',
-                carrier: 'Vodafone Portugal (Mobile GSM/UMTS)',
-                rec: 'Número com indicativo móvel válido e sem queixas registadas. Probabilidade normal de chamada legítima.',
-                l1: 'MATCHED (Vodafone PT 91)',
-                l1Desc: 'Valid Portuguese mobile allocation assigned to Vodafone Portugal.',
-                l2: 'NOT APPLICABLE',
-                l2Desc: 'Private individual mobile number; not present in public safety directory.',
-                l3: 'CLEAN SEARCH',
-                l3Desc: 'No business or public entity registered with this personal number.',
-                l4: '0 COMPLAINTS',
-                l4Desc: 'No reports of spam, telemarketing, or fraud in community databases.'
-            },
-            'voip_twilio': {
-                phone: '+351 308 123 456',
-                score: 25,
-                level: 'LOW',
-                levelBadge: 'NOMADIC VOIP NUMBER',
-                levelColor: 'text-yellow-400',
-                badgeBg: 'bg-yellow-500/20 text-yellow-400 border-yellow-500/40',
-                barColor: 'bg-yellow-500',
-                barWidth: '25%',
-                confidence: 'LOW (Baseline Adjusted)',
-                matchedBy: 'anacom_range',
-                carrier: 'Twilio Ireland / Nomadic VoIP (308)',
-                rec: 'Número nómada VoIP (gama 308). Usado frequentemente por centrais virtuais ou call centers. Recomenda-se precaução.',
-                l1: 'NOMADIC VOIP (Gama 308)',
-                l1Desc: 'Allocated by ANACOM under nomadic VoIP range 308 (Twilio Ireland).',
-                l2: 'NOT APPLICABLE',
-                l2Desc: 'Virtual SIP trunk number.',
-                l3: 'NO ENTITY FOUND',
-                l3Desc: 'No official physical company name registered to this specific extension.',
-                l4: 'LOW VOLUME',
-                l4Desc: 'Baseline risk elevated by +15 points due to nomadic VoIP nature.'
-            },
-            'mbway_scam': {
-                phone: '+351 931 435 295',
-                score: 95,
-                level: 'CRITICAL',
-                levelBadge: 'BURLEIRO / PHISHING MBWAY',
-                levelColor: 'text-rose-400',
-                badgeBg: 'bg-rose-500/20 text-rose-400 border-rose-500/40',
-                barColor: 'bg-rose-500',
-                barWidth: '95%',
-                confidence: 'HIGH (Multiple Complaints)',
-                matchedBy: 'crowdsourced_only',
-                carrier: 'NOS Comunicações (Mobile)',
-                rec: 'Bloquear imediatamente. Elevada probabilidade de burla financeira (MBWay ou impersonação bancária). Nunca forneça códigos ou dados confidenciais.',
-                l1: 'MATCHED (NOS Móvel 93)',
-                l1Desc: 'Valid mobile number allocated to NOS Comunicações.',
-                l2: 'NOT AN INSTITUTION',
-                l2Desc: 'Private line used for financial deception.',
-                l3: 'ALERT DETECTED',
-                l3Desc: 'Multiple forum warnings flagging "falso comprador OLX" and "burla MBWay".',
-                l4: '47 COMPLAINTS (Spam: 9.8)',
-                l4Desc: 'Massive volume of negative community ratings confirming financial scam attempts.'
-            }
-        };
-
-        function simulateCase(caseKey) {
-            const data = CASES[caseKey];
-            if (!data) return;
-
-            document.getElementById('demoPhone').textContent = data.phone;
-            document.getElementById('demoRiskScore').textContent = data.score;
-            document.getElementById('demoRiskScore').className = 'text-5xl font-black tracking-tight ' + data.levelColor;
-
-            const badge = document.getElementById('demoRiskBadge');
-            badge.textContent = data.levelBadge;
-            badge.className = 'px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider border ' + data.badgeBg;
-
-            const bar = document.getElementById('demoRiskBar');
-            bar.className = 'risk-gauge-bar h-full rounded-full ' + data.barColor;
-            bar.style.width = data.barWidth;
-
-            document.getElementById('demoConfidence').textContent = data.confidence;
-            document.getElementById('demoMatchedBy').textContent = data.matchedBy;
-            document.getElementById('demoCarrier').textContent = data.carrier;
-            document.getElementById('demoRecommendation').textContent = data.rec;
-
-            document.getElementById('demoL1Status').textContent = data.l1;
-            document.getElementById('demoL1Desc').textContent = data.l1Desc;
-            document.getElementById('demoL2Status').textContent = data.l2;
-            document.getElementById('demoL2Desc').textContent = data.l2Desc;
-            document.getElementById('demoL3Status').textContent = data.l3;
-            document.getElementById('demoL3Desc').textContent = data.l3Desc;
-            document.getElementById('demoL4Status').textContent = data.l4;
-            document.getElementById('demoL4Desc').textContent = data.l4Desc;
+        // Setup Quick Analyze function
+        function quickAnalyze(num) {
+            document.getElementById('phoneInput').value = num;
+            handleSearch(new Event('submit'));
         }
 
-        // Initialize with PSP HQ case
-        simulateCase('psp_hq');
+        // Setup Backend Modal
+        function openBackendModal() {
+            document.getElementById('backendModal').classList.remove('hidden');
+        }
+        function closeBackendModal() {
+            document.getElementById('backendModal').classList.add('hidden');
+        }
+        document.getElementById('backendToggleBtn').addEventListener('click', openBackendModal);
+
+        function resetBackendUrl() {
+            document.getElementById('backendUrlInput').value = 'http://127.0.0.1:8000';
+            saveBackendUrl();
+        }
+
+        function saveBackendUrl() {
+            const url = document.getElementById('backendUrlInput').value.trim();
+            localStorage.setItem('phone_intel_backend_url', url);
+            closeBackendModal();
+            checkBackendHealth();
+        }
+
+        // Initialize default view
+        window.addEventListener('DOMContentLoaded', () => {
+            quickAnalyze('214849700');
+            checkBackendHealth();
+        });
     </script>
 </body>
 </html>

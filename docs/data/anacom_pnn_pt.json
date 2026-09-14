@@ -1,0 +1,867 @@
+{
+  "version": "2026.1",
+  "country_code": "351",
+  "country_name": "Portugal",
+  "authority": "ANACOM (Autoridade Nacional de Comunicações)",
+  "description": "Plano Nacional de Numeração (PNN) de Portugal",
+  "prefix_rules": [
+    {
+      "prefix": "21",
+      "service_type": "Geographic Fixed",
+      "designation": "Rede Fixa - Área Geográfica de Lisboa",
+      "geographic_area": "Lisboa",
+      "primary_operators": ["MEO", "NOS", "Vodafone", "Colt", "Nowo"],
+      "technology": "PSTN / FTTH",
+      "is_voip": false,
+      "base_risk_modifier": 0,
+      "notes": "Rede telefónica fixa tradicional e fibra da área metropolitana de Lisboa."
+    },
+    {
+      "prefix": "22",
+      "service_type": "Geographic Fixed",
+      "designation": "Rede Fixa - Área Geográfica do Porto",
+      "geographic_area": "Porto",
+      "primary_operators": ["MEO", "NOS", "Vodafone", "Colt", "Nowo"],
+      "technology": "PSTN / FTTH",
+      "is_voip": false,
+      "base_risk_modifier": 0,
+      "notes": "Rede telefónica fixa da área metropolitana do Porto."
+    },
+    {
+      "prefix": "231",
+      "service_type": "Geographic Fixed",
+      "designation": "Rede Fixa - Mealhada",
+      "geographic_area": "Mealhada / Cantanhede / Anadia",
+      "primary_operators": ["MEO", "NOS", "Vodafone"],
+      "technology": "PSTN / FTTH",
+      "is_voip": false,
+      "base_risk_modifier": 0
+    },
+    {
+      "prefix": "232",
+      "service_type": "Geographic Fixed",
+      "designation": "Rede Fixa - Viseu",
+      "geographic_area": "Viseu",
+      "primary_operators": ["MEO", "NOS", "Vodafone"],
+      "technology": "PSTN / FTTH",
+      "is_voip": false,
+      "base_risk_modifier": 0
+    },
+    {
+      "prefix": "233",
+      "service_type": "Geographic Fixed",
+      "designation": "Rede Fixa - Figueira da Foz",
+      "geographic_area": "Figueira da Foz",
+      "primary_operators": ["MEO", "NOS", "Vodafone"],
+      "technology": "PSTN / FTTH",
+      "is_voip": false,
+      "base_risk_modifier": 0
+    },
+    {
+      "prefix": "234",
+      "service_type": "Geographic Fixed",
+      "designation": "Rede Fixa - Aveiro",
+      "geographic_area": "Aveiro",
+      "primary_operators": ["MEO", "NOS", "Vodafone"],
+      "technology": "PSTN / FTTH",
+      "is_voip": false,
+      "base_risk_modifier": 0
+    },
+    {
+      "prefix": "235",
+      "service_type": "Geographic Fixed",
+      "designation": "Rede Fixa - Arganil",
+      "geographic_area": "Arganil / Góis / Tábua",
+      "primary_operators": ["MEO", "NOS", "Vodafone"],
+      "technology": "PSTN / FTTH",
+      "is_voip": false,
+      "base_risk_modifier": 0
+    },
+    {
+      "prefix": "236",
+      "service_type": "Geographic Fixed",
+      "designation": "Rede Fixa - Pombal",
+      "geographic_area": "Pombal",
+      "primary_operators": ["MEO", "NOS", "Vodafone"],
+      "technology": "PSTN / FTTH",
+      "is_voip": false,
+      "base_risk_modifier": 0
+    },
+    {
+      "prefix": "238",
+      "service_type": "Geographic Fixed",
+      "designation": "Rede Fixa - Seia",
+      "geographic_area": "Seia",
+      "primary_operators": ["MEO", "NOS", "Vodafone"],
+      "technology": "PSTN / FTTH",
+      "is_voip": false,
+      "base_risk_modifier": 0
+    },
+    {
+      "prefix": "239",
+      "service_type": "Geographic Fixed",
+      "designation": "Rede Fixa - Coimbra",
+      "geographic_area": "Coimbra",
+      "primary_operators": ["MEO", "NOS", "Vodafone"],
+      "technology": "PSTN / FTTH",
+      "is_voip": false,
+      "base_risk_modifier": 0
+    },
+    {
+      "prefix": "241",
+      "service_type": "Geographic Fixed",
+      "designation": "Rede Fixa - Abrantes",
+      "geographic_area": "Abrantes",
+      "primary_operators": ["MEO", "NOS", "Vodafone"],
+      "technology": "PSTN / FTTH",
+      "is_voip": false,
+      "base_risk_modifier": 0
+    },
+    {
+      "prefix": "242",
+      "service_type": "Geographic Fixed",
+      "designation": "Rede Fixa - Ponte de Sor",
+      "geographic_area": "Ponte de Sor",
+      "primary_operators": ["MEO", "NOS", "Vodafone"],
+      "technology": "PSTN / FTTH",
+      "is_voip": false,
+      "base_risk_modifier": 0
+    },
+    {
+      "prefix": "243",
+      "service_type": "Geographic Fixed",
+      "designation": "Rede Fixa - Santarém",
+      "geographic_area": "Santarém",
+      "primary_operators": ["MEO", "NOS", "Vodafone"],
+      "technology": "PSTN / FTTH",
+      "is_voip": false,
+      "base_risk_modifier": 0
+    },
+    {
+      "prefix": "244",
+      "service_type": "Geographic Fixed",
+      "designation": "Rede Fixa - Leiria",
+      "geographic_area": "Leiria",
+      "primary_operators": ["MEO", "NOS", "Vodafone"],
+      "technology": "PSTN / FTTH",
+      "is_voip": false,
+      "base_risk_modifier": 0
+    },
+    {
+      "prefix": "245",
+      "service_type": "Geographic Fixed",
+      "designation": "Rede Fixa - Portalegre",
+      "geographic_area": "Portalegre",
+      "primary_operators": ["MEO", "NOS", "Vodafone"],
+      "technology": "PSTN / FTTH",
+      "is_voip": false,
+      "base_risk_modifier": 0
+    },
+    {
+      "prefix": "249",
+      "service_type": "Geographic Fixed",
+      "designation": "Rede Fixa - Torres Novas",
+      "geographic_area": "Torres Novas / Tomar",
+      "primary_operators": ["MEO", "NOS", "Vodafone"],
+      "technology": "PSTN / FTTH",
+      "is_voip": false,
+      "base_risk_modifier": 0
+    },
+    {
+      "prefix": "251",
+      "service_type": "Geographic Fixed",
+      "designation": "Rede Fixa - Valença",
+      "geographic_area": "Valença / Monção",
+      "primary_operators": ["MEO", "NOS", "Vodafone"],
+      "technology": "PSTN / FTTH",
+      "is_voip": false,
+      "base_risk_modifier": 0
+    },
+    {
+      "prefix": "252",
+      "service_type": "Geographic Fixed",
+      "designation": "Rede Fixa - Vila Nova de Famalicão",
+      "geographic_area": "Vila Nova de Famalicão / Póvoa de Varzim",
+      "primary_operators": ["MEO", "NOS", "Vodafone"],
+      "technology": "PSTN / FTTH",
+      "is_voip": false,
+      "base_risk_modifier": 0
+    },
+    {
+      "prefix": "253",
+      "service_type": "Geographic Fixed",
+      "designation": "Rede Fixa - Braga",
+      "geographic_area": "Braga / Guimarães",
+      "primary_operators": ["MEO", "NOS", "Vodafone"],
+      "technology": "PSTN / FTTH",
+      "is_voip": false,
+      "base_risk_modifier": 0
+    },
+    {
+      "prefix": "254",
+      "service_type": "Geographic Fixed",
+      "designation": "Rede Fixa - Peso da Régua",
+      "geographic_area": "Peso da Régua / Lamego",
+      "primary_operators": ["MEO", "NOS", "Vodafone"],
+      "technology": "PSTN / FTTH",
+      "is_voip": false,
+      "base_risk_modifier": 0
+    },
+    {
+      "prefix": "255",
+      "service_type": "Geographic Fixed",
+      "designation": "Rede Fixa - Penafiel",
+      "geographic_area": "Penafiel / Amarante",
+      "primary_operators": ["MEO", "NOS", "Vodafone"],
+      "technology": "PSTN / FTTH",
+      "is_voip": false,
+      "base_risk_modifier": 0
+    },
+    {
+      "prefix": "256",
+      "service_type": "Geographic Fixed",
+      "designation": "Rede Fixa - São João da Madeira",
+      "geographic_area": "São João da Madeira / Santa Maria da Feira",
+      "primary_operators": ["MEO", "NOS", "Vodafone"],
+      "technology": "PSTN / FTTH",
+      "is_voip": false,
+      "base_risk_modifier": 0
+    },
+    {
+      "prefix": "258",
+      "service_type": "Geographic Fixed",
+      "designation": "Rede Fixa - Viana do Castelo",
+      "geographic_area": "Viana do Castelo",
+      "primary_operators": ["MEO", "NOS", "Vodafone"],
+      "technology": "PSTN / FTTH",
+      "is_voip": false,
+      "base_risk_modifier": 0
+    },
+    {
+      "prefix": "259",
+      "service_type": "Geographic Fixed",
+      "designation": "Rede Fixa - Vila Real",
+      "geographic_area": "Vila Real",
+      "primary_operators": ["MEO", "NOS", "Vodafone"],
+      "technology": "PSTN / FTTH",
+      "is_voip": false,
+      "base_risk_modifier": 0
+    },
+    {
+      "prefix": "261",
+      "service_type": "Geographic Fixed",
+      "designation": "Rede Fixa - Torres Vedras",
+      "geographic_area": "Torres Vedras",
+      "primary_operators": ["MEO", "NOS", "Vodafone"],
+      "technology": "PSTN / FTTH",
+      "is_voip": false,
+      "base_risk_modifier": 0
+    },
+    {
+      "prefix": "262",
+      "service_type": "Geographic Fixed",
+      "designation": "Rede Fixa - Caldas da Rainha",
+      "geographic_area": "Caldas da Rainha / Peniche",
+      "primary_operators": ["MEO", "NOS", "Vodafone"],
+      "technology": "PSTN / FTTH",
+      "is_voip": false,
+      "base_risk_modifier": 0
+    },
+    {
+      "prefix": "263",
+      "service_type": "Geographic Fixed",
+      "designation": "Rede Fixa - Vila Franca de Xira",
+      "geographic_area": "Vila Franca de Xira / Alverca",
+      "primary_operators": ["MEO", "NOS", "Vodafone"],
+      "technology": "PSTN / FTTH",
+      "is_voip": false,
+      "base_risk_modifier": 0
+    },
+    {
+      "prefix": "265",
+      "service_type": "Geographic Fixed",
+      "designation": "Rede Fixa - Setúbal",
+      "geographic_area": "Setúbal",
+      "primary_operators": ["MEO", "NOS", "Vodafone"],
+      "technology": "PSTN / FTTH",
+      "is_voip": false,
+      "base_risk_modifier": 0
+    },
+    {
+      "prefix": "266",
+      "service_type": "Geographic Fixed",
+      "designation": "Rede Fixa - Évora",
+      "geographic_area": "Évora",
+      "primary_operators": ["MEO", "NOS", "Vodafone"],
+      "technology": "PSTN / FTTH",
+      "is_voip": false,
+      "base_risk_modifier": 0
+    },
+    {
+      "prefix": "268",
+      "service_type": "Geographic Fixed",
+      "designation": "Rede Fixa - Estremoz",
+      "geographic_area": "Estremoz",
+      "primary_operators": ["MEO", "NOS", "Vodafone"],
+      "technology": "PSTN / FTTH",
+      "is_voip": false,
+      "base_risk_modifier": 0
+    },
+    {
+      "prefix": "269",
+      "service_type": "Geographic Fixed",
+      "designation": "Rede Fixa - Santiago do Cacém",
+      "geographic_area": "Santiago do Cacém / Sines",
+      "primary_operators": ["MEO", "NOS", "Vodafone"],
+      "technology": "PSTN / FTTH",
+      "is_voip": false,
+      "base_risk_modifier": 0
+    },
+    {
+      "prefix": "271",
+      "service_type": "Geographic Fixed",
+      "designation": "Rede Fixa - Guarda",
+      "geographic_area": "Guarda",
+      "primary_operators": ["MEO", "NOS", "Vodafone"],
+      "technology": "PSTN / FTTH",
+      "is_voip": false,
+      "base_risk_modifier": 0
+    },
+    {
+      "prefix": "272",
+      "service_type": "Geographic Fixed",
+      "designation": "Rede Fixa - Castelo Branco",
+      "geographic_area": "Castelo Branco",
+      "primary_operators": ["MEO", "NOS", "Vodafone"],
+      "technology": "PSTN / FTTH",
+      "is_voip": false,
+      "base_risk_modifier": 0
+    },
+    {
+      "prefix": "273",
+      "service_type": "Geographic Fixed",
+      "designation": "Rede Fixa - Bragança",
+      "geographic_area": "Bragança",
+      "primary_operators": ["MEO", "NOS", "Vodafone"],
+      "technology": "PSTN / FTTH",
+      "is_voip": false,
+      "base_risk_modifier": 0
+    },
+    {
+      "prefix": "274",
+      "service_type": "Geographic Fixed",
+      "designation": "Rede Fixa - Proença-a-Nova",
+      "geographic_area": "Proença-a-Nova / Sertã",
+      "primary_operators": ["MEO", "NOS", "Vodafone"],
+      "technology": "PSTN / FTTH",
+      "is_voip": false,
+      "base_risk_modifier": 0
+    },
+    {
+      "prefix": "275",
+      "service_type": "Geographic Fixed",
+      "designation": "Rede Fixa - Covilhã",
+      "geographic_area": "Covilhã / Fundão",
+      "primary_operators": ["MEO", "NOS", "Vodafone"],
+      "technology": "PSTN / FTTH",
+      "is_voip": false,
+      "base_risk_modifier": 0
+    },
+    {
+      "prefix": "276",
+      "service_type": "Geographic Fixed",
+      "designation": "Rede Fixa - Chaves",
+      "geographic_area": "Chaves",
+      "primary_operators": ["MEO", "NOS", "Vodafone"],
+      "technology": "PSTN / FTTH",
+      "is_voip": false,
+      "base_risk_modifier": 0
+    },
+    {
+      "prefix": "277",
+      "service_type": "Geographic Fixed",
+      "designation": "Rede Fixa - Idanha-a-Nova",
+      "geographic_area": "Idanha-a-Nova",
+      "primary_operators": ["MEO", "NOS", "Vodafone"],
+      "technology": "PSTN / FTTH",
+      "is_voip": false,
+      "base_risk_modifier": 0
+    },
+    {
+      "prefix": "278",
+      "service_type": "Geographic Fixed",
+      "designation": "Rede Fixa - Mirandela",
+      "geographic_area": "Mirandela",
+      "primary_operators": ["MEO", "NOS", "Vodafone"],
+      "technology": "PSTN / FTTH",
+      "is_voip": false,
+      "base_risk_modifier": 0
+    },
+    {
+      "prefix": "279",
+      "service_type": "Geographic Fixed",
+      "designation": "Rede Fixa - Moncorvo",
+      "geographic_area": "Torre de Moncorvo",
+      "primary_operators": ["MEO", "NOS", "Vodafone"],
+      "technology": "PSTN / FTTH",
+      "is_voip": false,
+      "base_risk_modifier": 0
+    },
+    {
+      "prefix": "281",
+      "service_type": "Geographic Fixed",
+      "designation": "Rede Fixa - Tavira",
+      "geographic_area": "Tavira / Vila Real de Santo António",
+      "primary_operators": ["MEO", "NOS", "Vodafone"],
+      "technology": "PSTN / FTTH",
+      "is_voip": false,
+      "base_risk_modifier": 0
+    },
+    {
+      "prefix": "282",
+      "service_type": "Geographic Fixed",
+      "designation": "Rede Fixa - Portimão",
+      "geographic_area": "Portimão / Lagos",
+      "primary_operators": ["MEO", "NOS", "Vodafone"],
+      "technology": "PSTN / FTTH",
+      "is_voip": false,
+      "base_risk_modifier": 0
+    },
+    {
+      "prefix": "283",
+      "service_type": "Geographic Fixed",
+      "designation": "Rede Fixa - Odemira",
+      "geographic_area": "Odemira",
+      "primary_operators": ["MEO", "NOS", "Vodafone"],
+      "technology": "PSTN / FTTH",
+      "is_voip": false,
+      "base_risk_modifier": 0
+    },
+    {
+      "prefix": "284",
+      "service_type": "Geographic Fixed",
+      "designation": "Rede Fixa - Beja",
+      "geographic_area": "Beja",
+      "primary_operators": ["MEO", "NOS", "Vodafone"],
+      "technology": "PSTN / FTTH",
+      "is_voip": false,
+      "base_risk_modifier": 0
+    },
+    {
+      "prefix": "285",
+      "service_type": "Geographic Fixed",
+      "designation": "Rede Fixa - Moura",
+      "geographic_area": "Moura / Serpa",
+      "primary_operators": ["MEO", "NOS", "Vodafone"],
+      "technology": "PSTN / FTTH",
+      "is_voip": false,
+      "base_risk_modifier": 0
+    },
+    {
+      "prefix": "286",
+      "service_type": "Geographic Fixed",
+      "designation": "Rede Fixa - Castro Verde",
+      "geographic_area": "Castro Verde / Aljustrel",
+      "primary_operators": ["MEO", "NOS", "Vodafone"],
+      "technology": "PSTN / FTTH",
+      "is_voip": false,
+      "base_risk_modifier": 0
+    },
+    {
+      "prefix": "289",
+      "service_type": "Geographic Fixed",
+      "designation": "Rede Fixa - Faro",
+      "geographic_area": "Faro / Olhão / Loulé / Albufeira",
+      "primary_operators": ["MEO", "NOS", "Vodafone"],
+      "technology": "PSTN / FTTH",
+      "is_voip": false,
+      "base_risk_modifier": 0
+    },
+    {
+      "prefix": "291",
+      "service_type": "Geographic Fixed",
+      "designation": "Rede Fixa - Funchal (Madeira)",
+      "geographic_area": "Madeira (Funchal)",
+      "primary_operators": ["MEO", "NOS Madeira", "Vodafone"],
+      "technology": "PSTN / FTTH",
+      "is_voip": false,
+      "base_risk_modifier": 0
+    },
+    {
+      "prefix": "292",
+      "service_type": "Geographic Fixed",
+      "designation": "Rede Fixa - Horta (Açores)",
+      "geographic_area": "Açores (Faial / Pico / Flores / Corvo)",
+      "primary_operators": ["MEO", "NOS Açores", "Vodafone"],
+      "technology": "PSTN / FTTH",
+      "is_voip": false,
+      "base_risk_modifier": 0
+    },
+    {
+      "prefix": "295",
+      "service_type": "Geographic Fixed",
+      "designation": "Rede Fixa - Angra do Heroísmo (Açores)",
+      "geographic_area": "Açores (Terceira / São Jorge / Graciosa)",
+      "primary_operators": ["MEO", "NOS Açores", "Vodafone"],
+      "technology": "PSTN / FTTH",
+      "is_voip": false,
+      "base_risk_modifier": 0
+    },
+    {
+      "prefix": "296",
+      "service_type": "Geographic Fixed",
+      "designation": "Rede Fixa - Ponta Delgada (Açores)",
+      "geographic_area": "Açores (São Miguel / Santa Maria)",
+      "primary_operators": ["MEO", "NOS Açores", "Vodafone"],
+      "technology": "PSTN / FTTH",
+      "is_voip": false,
+      "base_risk_modifier": 0
+    },
+
+    {
+      "prefix": "300",
+      "service_type": "Nomadic VoIP",
+      "designation": "Serviço Telefónico Nómada (VoIP)",
+      "geographic_area": "Nacional / Nómada",
+      "primary_operators": ["Twilio Ireland", "MEO", "NOS", "Vodafone", "Colt", "DIDWW"],
+      "technology": "VoIP / SIP Trunk",
+      "is_voip": true,
+      "base_risk_modifier": 15,
+      "notes": "Numeração nómada não associada a morada fixa. Frequente em call centers e serviços cloud."
+    },
+    {
+      "prefix": "301",
+      "service_type": "Nomadic VoIP",
+      "designation": "Serviço Telefónico Nómada (VoIP)",
+      "geographic_area": "Nacional / Nómada",
+      "primary_operators": ["MEO", "NOS", "Vodafone", "IP Telecom", "CloudTelecom"],
+      "technology": "VoIP / SIP Trunk",
+      "is_voip": true,
+      "base_risk_modifier": 15
+    },
+    {
+      "prefix": "302",
+      "service_type": "Nomadic VoIP",
+      "designation": "Serviço Telefónico Nómada (VoIP)",
+      "geographic_area": "Nacional / Nómada",
+      "primary_operators": ["MEO", "NOS", "Vodafone", "AR Telecom"],
+      "technology": "VoIP / SIP Trunk",
+      "is_voip": true,
+      "base_risk_modifier": 15
+    },
+    {
+      "prefix": "303",
+      "service_type": "Nomadic VoIP",
+      "designation": "Serviço Telefónico Nómada (VoIP)",
+      "geographic_area": "Nacional / Nómada",
+      "primary_operators": ["NOS", "MEO", "G9Telecom"],
+      "technology": "VoIP / SIP Trunk",
+      "is_voip": true,
+      "base_risk_modifier": 15
+    },
+    {
+      "prefix": "304",
+      "service_type": "Nomadic VoIP",
+      "designation": "Serviço Telefónico Nómada (VoIP)",
+      "geographic_area": "Nacional / Nómada",
+      "primary_operators": ["Vodafone", "MEO", "NOS"],
+      "technology": "VoIP / SIP Trunk",
+      "is_voip": true,
+      "base_risk_modifier": 15
+    },
+    {
+      "prefix": "305",
+      "service_type": "Nomadic VoIP",
+      "designation": "Serviço Telefónico Nómada (VoIP)",
+      "geographic_area": "Nacional / Nómada",
+      "primary_operators": ["Twilio Ireland", "MEO", "NOS"],
+      "technology": "VoIP / SIP Trunk",
+      "is_voip": true,
+      "base_risk_modifier": 15
+    },
+    {
+      "prefix": "308",
+      "service_type": "Nomadic VoIP",
+      "designation": "Serviço Telefónico Nómada (VoIP)",
+      "geographic_area": "Nacional / Nómada",
+      "primary_operators": ["MEO", "Vodafone", "NOS", "DIDWW", "Colt"],
+      "technology": "VoIP / SIP Trunk",
+      "is_voip": true,
+      "base_risk_modifier": 15,
+      "notes": "Faixa nómada amplamente utilizada para integração de centrais virtuais PBX e televendas."
+    },
+    {
+      "prefix": "309",
+      "service_type": "Nomadic VoIP",
+      "designation": "Serviço Telefónico Nómada (VoIP)",
+      "geographic_area": "Nacional / Nómada",
+      "primary_operators": ["MEO", "NOS", "Vodafone"],
+      "technology": "VoIP / SIP Trunk",
+      "is_voip": true,
+      "base_risk_modifier": 15
+    },
+
+    {
+      "prefix": "91",
+      "service_type": "Mobile",
+      "designation": "Serviço Móvel Terrestre - Vodafone",
+      "geographic_area": "Nacional (Móvel)",
+      "primary_operators": ["Vodafone Portugal"],
+      "technology": "GSM / UMTS / LTE / 5G",
+      "is_voip": false,
+      "base_risk_modifier": 5,
+      "notes": "Bloco originalmente atribuído à Vodafone (Telecel). Sujeito a portabilidade."
+    },
+    {
+      "prefix": "921",
+      "service_type": "Mobile",
+      "designation": "Serviço Móvel Terrestre - MEO",
+      "geographic_area": "Nacional (Móvel)",
+      "primary_operators": ["MEO (Altice Portugal)"],
+      "technology": "GSM / UMTS / LTE / 5G",
+      "is_voip": false,
+      "base_risk_modifier": 5
+    },
+    {
+      "prefix": "922",
+      "service_type": "Mobile",
+      "designation": "Serviço Móvel Terrestre - MEO",
+      "geographic_area": "Nacional (Móvel)",
+      "primary_operators": ["MEO (Altice Portugal)"],
+      "technology": "GSM / UMTS / LTE / 5G",
+      "is_voip": false,
+      "base_risk_modifier": 5
+    },
+    {
+      "prefix": "924",
+      "service_type": "Mobile",
+      "designation": "Serviço Móvel Terrestre - MEO",
+      "geographic_area": "Nacional (Móvel)",
+      "primary_operators": ["MEO (Altice Portugal)"],
+      "technology": "GSM / UMTS / LTE / 5G",
+      "is_voip": false,
+      "base_risk_modifier": 5
+    },
+    {
+      "prefix": "925",
+      "service_type": "Mobile",
+      "designation": "Serviço Móvel Terrestre - MEO",
+      "geographic_area": "Nacional (Móvel)",
+      "primary_operators": ["MEO (Altice Portugal)"],
+      "technology": "GSM / UMTS / LTE / 5G",
+      "is_voip": false,
+      "base_risk_modifier": 5
+    },
+    {
+      "prefix": "926",
+      "service_type": "Mobile",
+      "designation": "Serviço Móvel Terrestre - MEO",
+      "geographic_area": "Nacional (Móvel)",
+      "primary_operators": ["MEO (Altice Portugal)"],
+      "technology": "GSM / UMTS / LTE / 5G",
+      "is_voip": false,
+      "base_risk_modifier": 5
+    },
+    {
+      "prefix": "927",
+      "service_type": "Mobile",
+      "designation": "Serviço Móvel Terrestre - MEO",
+      "geographic_area": "Nacional (Móvel)",
+      "primary_operators": ["MEO (Altice Portugal)"],
+      "technology": "GSM / UMTS / LTE / 5G",
+      "is_voip": false,
+      "base_risk_modifier": 5
+    },
+    {
+      "prefix": "929",
+      "service_type": "Mobile",
+      "designation": "Serviço Móvel Terrestre - NOS",
+      "geographic_area": "Nacional (Móvel)",
+      "primary_operators": ["NOS Comunicações (Optimus)"],
+      "technology": "GSM / UMTS / LTE / 5G",
+      "is_voip": false,
+      "base_risk_modifier": 5
+    },
+    {
+      "prefix": "92",
+      "service_type": "Mobile",
+      "designation": "Serviço Móvel Terrestre - MEO / NOS / Vodafone",
+      "geographic_area": "Nacional (Móvel)",
+      "primary_operators": ["MEO", "NOS", "Vodafone"],
+      "technology": "GSM / UMTS / LTE / 5G",
+      "is_voip": false,
+      "base_risk_modifier": 5
+    },
+    {
+      "prefix": "93",
+      "service_type": "Mobile",
+      "designation": "Serviço Móvel Terrestre - NOS",
+      "geographic_area": "Nacional (Móvel)",
+      "primary_operators": ["NOS Comunicações (Optimus)"],
+      "technology": "GSM / UMTS / LTE / 5G",
+      "is_voip": false,
+      "base_risk_modifier": 5,
+      "notes": "Bloco originalmente atribuído à Optimus / NOS. Sujeito a portabilidade."
+    },
+    {
+      "prefix": "94",
+      "service_type": "Mobile",
+      "designation": "Serviço Móvel Terrestre - DIGI Portugal",
+      "geographic_area": "Nacional (Móvel)",
+      "primary_operators": ["DIGI Portugal"],
+      "technology": "LTE / 5G",
+      "is_voip": false,
+      "base_risk_modifier": 5,
+      "notes": "Nova faixa móvel atribuída à DIGI Portugal."
+    },
+    {
+      "prefix": "96",
+      "service_type": "Mobile",
+      "designation": "Serviço Móvel Terrestre - MEO",
+      "geographic_area": "Nacional (Móvel)",
+      "primary_operators": ["MEO (TMN / Altice Portugal)"],
+      "technology": "GSM / UMTS / LTE / 5G",
+      "is_voip": false,
+      "base_risk_modifier": 5,
+      "notes": "Bloco originalmente atribuído à TMN / MEO. Sujeito a portabilidade."
+    },
+
+    {
+      "prefix": "800",
+      "service_type": "Toll-Free",
+      "designation": "Número Verde (Chamada Gratuita)",
+      "geographic_area": "Nacional",
+      "primary_operators": ["MEO", "NOS", "Vodafone", "Colt"],
+      "technology": "Intelligent Network",
+      "is_voip": false,
+      "base_risk_modifier": -15,
+      "notes": "Chamada gratuita para o autor da chamada. Utilizado por suporte e linhas de apoio institucional."
+    },
+    {
+      "prefix": "808",
+      "service_type": "Shared Cost",
+      "designation": "Número Azul (Custo Partilhado)",
+      "geographic_area": "Nacional",
+      "primary_operators": ["MEO", "NOS", "Vodafone"],
+      "technology": "Intelligent Network",
+      "is_voip": false,
+      "base_risk_modifier": 0,
+      "notes": "Custo máximo por chamada equivalente ao de uma chamada local na rede fixa."
+    },
+    {
+      "prefix": "707",
+      "service_type": "Special Rate / Universal",
+      "designation": "Serviço de Acesso Universal (Custo Elevado)",
+      "geographic_area": "Nacional",
+      "primary_operators": ["MEO", "NOS", "Vodafone", "Colt"],
+      "technology": "Intelligent Network",
+      "is_voip": false,
+      "base_risk_modifier": 20,
+      "notes": "Tarifa especial (máximo legal por minuto regulado). Historicamente muito associado a cobranças elevadas."
+    },
+    {
+      "prefix": "708",
+      "service_type": "Special Rate / Universal",
+      "designation": "Serviço de Acesso Universal",
+      "geographic_area": "Nacional",
+      "primary_operators": ["MEO", "NOS", "Vodafone"],
+      "technology": "Intelligent Network",
+      "is_voip": false,
+      "base_risk_modifier": 20
+    },
+    {
+      "prefix": "760",
+      "service_type": "Premium Rate Mass Calling",
+      "designation": "Chamadas de Valor Acrescentado - Acesso Universal (Concursos TV)",
+      "geographic_area": "Nacional",
+      "primary_operators": ["MEO", "NOS", "Vodafone", "Ar Telecom"],
+      "technology": "Intelligent Network",
+      "is_voip": false,
+      "base_risk_modifier": 30,
+      "notes": "Número de valor acrescentado (0,60€ + IVA por chamada). Utilizado habitualmente em passatempos de televisão."
+    },
+    {
+      "prefix": "761",
+      "service_type": "Premium Rate Mass Calling",
+      "designation": "Chamadas de Valor Acrescentado - Passatempos / Votações",
+      "geographic_area": "Nacional",
+      "primary_operators": ["MEO", "NOS", "Vodafone"],
+      "technology": "Intelligent Network",
+      "is_voip": false,
+      "base_risk_modifier": 30
+    },
+    {
+      "prefix": "762",
+      "service_type": "Premium Rate Mass Calling",
+      "designation": "Chamadas de Valor Acrescentado - Eventos e Passatempos",
+      "geographic_area": "Nacional",
+      "primary_operators": ["MEO", "NOS", "Vodafone"],
+      "technology": "Intelligent Network",
+      "is_voip": false,
+      "base_risk_modifier": 30
+    },
+    {
+      "prefix": "601",
+      "service_type": "Premium Rate",
+      "designation": "Serviço de Valor Acrescentado (Entretenimento)",
+      "geographic_area": "Nacional",
+      "primary_operators": ["Vários Operadores"],
+      "technology": "Audiotexto / SVA",
+      "is_voip": false,
+      "base_risk_modifier": 40,
+      "notes": "Serviço de tarifação especial com valor elevado."
+    },
+    {
+      "prefix": "607",
+      "service_type": "Premium Rate",
+      "designation": "Serviço de Valor Acrescentado (Opinião / Sondagens)",
+      "geographic_area": "Nacional",
+      "primary_operators": ["Vários Operadores"],
+      "technology": "Audiotexto / SVA",
+      "is_voip": false,
+      "base_risk_modifier": 35
+    },
+    {
+      "prefix": "608",
+      "service_type": "Premium Rate",
+      "designation": "Serviço de Valor Acrescentado (Informação Geral)",
+      "geographic_area": "Nacional",
+      "primary_operators": ["Vários Operadores"],
+      "technology": "Audiotexto / SVA",
+      "is_voip": false,
+      "base_risk_modifier": 35
+    },
+    {
+      "prefix": "112",
+      "service_type": "Emergency",
+      "designation": "Número Único Europeu de Emergência",
+      "geographic_area": "Nacional / Europeu",
+      "primary_operators": ["MAI / PSP / GNR / INEM"],
+      "technology": "Emergency Trunk",
+      "is_voip": false,
+      "base_risk_modifier": -50,
+      "notes": "Linha oficial de emergência médica, segurança e bombeiros."
+    },
+    {
+      "prefix": "116",
+      "service_type": "Harmonised Social Service",
+      "designation": "Serviços Sociais Harmonizados",
+      "geographic_area": "Nacional / Europeu",
+      "primary_operators": ["Linhas de Apoio Social"],
+      "technology": "Helpline",
+      "is_voip": false,
+      "base_risk_modifier": -30,
+      "notes": "Apoio a crianças desaparecidas, apoio a vítimas de violência doméstica, etc."
+    },
+    {
+      "prefix": "18",
+      "service_type": "Directory Inquiry",
+      "designation": "Serviços de Informação de Lista Telefónica",
+      "geographic_area": "Nacional",
+      "primary_operators": ["MEO", "NOS"],
+      "technology": "Directory Services",
+      "is_voip": false,
+      "base_risk_modifier": 10
+    }
+  ]
+}
